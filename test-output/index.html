@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AutomationTest" class="navigator-link">
+              <span class="suite-name border-failed">AutomationTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AutomationTest" class="navigator-link ">
+                    <span>C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AutomationTest" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AutomationTest" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AutomationTest" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AutomationTest" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AutomationTest" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AutomationTest" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,  5 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AutomationTest" class="hide-methods failed suite-AutomationTest"> (hide)</a> <!-- hide-methods failed suite-AutomationTest -->
+                      <a href="#" panel-name="suite-AutomationTest" class="show-methods failed suite-AutomationTest"> (show)</a> <!-- show-methods failed suite-AutomationTest -->
+                    </span>
+                    <div class="method-list-content failed suite-AutomationTest">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTest" title="com.crm.testCases.Tc15NTBAssistedWithoutDocReq" class="method navigator-link" hash-for-method="NTBAssistedJourneyWithoutDocCC">NTBAssistedJourneyWithoutDocCC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AutomationTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-AutomationTest" class="hide-methods skipped suite-AutomationTest"> (hide)</a> <!-- hide-methods skipped suite-AutomationTest -->
+                      <a href="#" panel-name="suite-AutomationTest" class="show-methods skipped suite-AutomationTest"> (show)</a> <!-- show-methods skipped suite-AutomationTest -->
+                    </span>
+                    <div class="method-list-content skipped suite-AutomationTest">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTest" title="com.crm.testCases.TC19OD_PL_PA" class="method navigator-link" hash-for-method="Kotak_OD_PL_PA">Kotak_OD_PL_PA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTest" title="com.crm.testCases.Tc20NTBAssistedDocReq" class="method navigator-link" hash-for-method="NTBAssistedJourneyWithDocCC">NTBAssistedJourneyWithDocCC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTest" title="com.crm.testCases.TC16WCDLOffer_ADHOC" class="method navigator-link" hash-for-method="WCDLOffer_forAdhoc">WCDLOffer_forAdhoc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTest" title="com.crm.testCases.TC18WCDLOffer_Renewal" class="method navigator-link" hash-for-method="WCDLOffer_forRenewal">WCDLOffer_forRenewal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-AutomationTest" title="com.crm.testCases.TC17WCDLOffer_Sublimit" class="method navigator-link" hash-for-method="WCDLOffer_forSublimit">WCDLOffer_forSublimit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-AutomationTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AutomationTest" class="panel AutomationTest">
+          <div class="suite-AutomationTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.testCases.Tc15NTBAssistedWithoutDocReq</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NTBAssistedJourneyWithoutDocCC">
+                  </a> <!-- NTBAssistedJourneyWithoutDocCC -->
+                  <span class="method-name">NTBAssistedJourneyWithoutDocCC</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=106.0.5249.119)
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;PRATIKGIL&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [766b323811287f590ed116519acd8a62, get {url=https://crmmobileuat.kotak.com/sn/app/login/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52100/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 766b323811287f590ed116519acd8a62
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
+	at com.crm.base.SetUp.setUpTest1(SetUp.java:48)
+	at com.crm.commonUtilities.CommonMethods.isTestRunnable(CommonMethods.java:315)
+	at com.crm.testCases.Tc15NTBAssistedWithoutDocReq.NTBAssistedJourneyWithoutDocCC(Tc15NTBAssistedWithoutDocReq.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTest-class-failed -->
+          <div class="suite-AutomationTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.crm.testCases.TC19OD_PL_PA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Kotak_OD_PL_PA">
+                  </a> <!-- Kotak_OD_PL_PA -->
+                  <span class="method-name">Kotak_OD_PL_PA</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test WCDLOffer_forRenewal as the Run mode is NO
+	at com.crm.testCases.TC19OD_PL_PA.Kotak_OD_PL_PA(TC19OD_PL_PA.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTest-class-skipped -->
+          <div class="suite-AutomationTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.crm.testCases.TC16WCDLOffer_ADHOC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WCDLOffer_forAdhoc">
+                  </a> <!-- WCDLOffer_forAdhoc -->
+                  <span class="method-name">WCDLOffer_forAdhoc</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test WCDLOffer_forAdhoc as the Run mode is NO
+	at com.crm.testCases.TC16WCDLOffer_ADHOC.WCDLOffer_forAdhoc(TC16WCDLOffer_ADHOC.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTest-class-skipped -->
+          <div class="suite-AutomationTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.crm.testCases.Tc20NTBAssistedDocReq</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NTBAssistedJourneyWithDocCC">
+                  </a> <!-- NTBAssistedJourneyWithDocCC -->
+                  <span class="method-name">NTBAssistedJourneyWithDocCC</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test NTBAssistedJourneyWithDoc as the Run mode is NO
+	at com.crm.testCases.Tc20NTBAssistedDocReq.NTBAssistedJourneyWithDocCC(Tc20NTBAssistedDocReq.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTest-class-skipped -->
+          <div class="suite-AutomationTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.crm.testCases.TC17WCDLOffer_Sublimit</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WCDLOffer_forSublimit">
+                  </a> <!-- WCDLOffer_forSublimit -->
+                  <span class="method-name">WCDLOffer_forSublimit</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test WCDLOffer_forSublimit as the Run mode is NO
+	at com.crm.testCases.TC17WCDLOffer_Sublimit.WCDLOffer_forSublimit(TC17WCDLOffer_Sublimit.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTest-class-skipped -->
+          <div class="suite-AutomationTest-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.crm.testCases.TC18WCDLOffer_Renewal</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WCDLOffer_forRenewal">
+                  </a> <!-- WCDLOffer_forRenewal -->
+                  <span class="method-name">WCDLOffer_forRenewal</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test WCDLOffer_forRenewal as the Run mode is NO
+	at com.crm.testCases.TC18WCDLOffer_Renewal.WCDLOffer_forRenewal(TC18WCDLOffer_Renewal.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AutomationTest-class-skipped -->
+        </div> <!-- panel AutomationTest -->
+        <div panel-name="test-xml-AutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AutomationTest&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.crm.listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test To Verify CRM Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crm.testCases.Tc15NTBAssistedWithoutDocReq&quot;/&gt;
+      &lt;class name=&quot;com.crm.testCases.TC16WCDLOffer_ADHOC&quot;/&gt;
+      &lt;class name=&quot;com.crm.testCases.TC17WCDLOffer_Sublimit&quot;/&gt;
+      &lt;class name=&quot;com.crm.testCases.TC18WCDLOffer_Renewal&quot;/&gt;
+      &lt;class name=&quot;com.crm.testCases.TC19OD_PL_PA&quot;/&gt;
+      &lt;class name=&quot;com.crm.testCases.Tc20NTBAssistedDocReq&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test To Verify CRM Login --&gt;
+&lt;/suite&gt; &lt;!-- AutomationTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AutomationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test To Verify CRM Login (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AutomationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AutomationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AutomationTest');
+function tableData_AutomationTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'NTBAssistedJourneyWithoutDocCC')
+data.setCell(0, 2, 'com.crm.testCases.Tc15NTBAssistedWithoutDocReq')
+data.setCell(0, 3, 22675);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'WCDLOffer_forAdhoc')
+data.setCell(1, 2, 'com.crm.testCases.TC16WCDLOffer_ADHOC')
+data.setCell(1, 3, 17075);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'NTBAssistedJourneyWithDocCC')
+data.setCell(2, 2, 'com.crm.testCases.Tc20NTBAssistedDocReq')
+data.setCell(2, 3, 14887);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'WCDLOffer_forSublimit')
+data.setCell(3, 2, 'com.crm.testCases.TC17WCDLOffer_Sublimit')
+data.setCell(3, 3, 14746);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Kotak_OD_PL_PA')
+data.setCell(4, 2, 'com.crm.testCases.TC19OD_PL_PA')
+data.setCell(4, 3, 13580);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'WCDLOffer_forRenewal')
+data.setCell(5, 2, 'com.crm.testCases.TC18WCDLOffer_Renewal')
+data.setCell(5, 3, 13403);
+window.suiteTableData['AutomationTest']= { tableData: data, tableDiv: 'times-div-AutomationTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-AutomationTest">
+              </div> <!-- times-div-AutomationTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AutomationTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.crm.testCases.TC19OD_PL_PA</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.crm.testCases.TC16WCDLOffer_ADHOC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.crm.testCases.TC17WCDLOffer_Sublimit</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.crm.testCases.Tc20NTBAssistedDocReq</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.crm.testCases.TC18WCDLOffer_Renewal</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AutomationTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.testCases.Tc15NTBAssistedWithoutDocReq</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NTBAssistedJourneyWithoutDocCC</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.testCases.TC16WCDLOffer_ADHOC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">WCDLOffer_forAdhoc</span>
+                <span class="method-start">43444 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.testCases.TC17WCDLOffer_Sublimit</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">WCDLOffer_forSublimit</span>
+                <span class="method-start">60529 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.testCases.TC18WCDLOffer_Renewal</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">WCDLOffer_forRenewal</span>
+                <span class="method-start">75276 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.testCases.TC19OD_PL_PA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Kotak_OD_PL_PA</span>
+                <span class="method-start">88683 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.testCases.Tc20NTBAssistedDocReq</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NTBAssistedJourneyWithDocCC</span>
+                <span class="method-start">102270 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.testCases.Tc15NTBAssistedWithoutDocReq</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">117163 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

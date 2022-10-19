@@ -1,0 +1,811 @@
+2022-10-08 20:10:59 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 20:10:59 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 20:11:20 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 20:11:20 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 20:11:26 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 20:11:31 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 20:11:31 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 20:12:31 ERROR CommonMethods - Not Sucessfully clicked on Username_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='TxtName'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54080/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c19b4f09b59eb054d96ce21b99d046f5
+2022-10-08 20:12:31 ERROR CommonMethods - Data Not Sucessfully entered on Username_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='TxtName']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c19b4f09b59eb054d96ce21b99d046f5, findElement {using=xpath, value=//input[@id='TxtName']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54080/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c19b4f09b59eb054d96ce21b99d046f5
+2022-10-08 20:13:01 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 20:13:03 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 20:13:05 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 20:14:18 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 20:14:18 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 20:14:23 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 20:14:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 20:14:27 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 20:14:28 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 20:14:29 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 20:14:52 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 20:14:52 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 20:14:53 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 20:14:54 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 20:15:04 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 20:15:22 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 20:15:22 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 20:15:25 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 20:15:27 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 20:16:58 INFO  NTBAssistedJourneyCC - digital card journey initiated
+2022-10-08 20:17:01 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 20:17:04 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/vivid/vividflow/run/cc_etb_flow#CustomerSelection
+2022-10-08 20:17:16 INFO  CommonMethods - Data = 40,000 to 74,999 Sucessfully Selected from dropdown MonthlyIncomeCC_XPATH
+2022-10-08 20:18:32 INFO  CommonMethods - Sucessfully clicked on FirstNameCC_XPATH
+2022-10-08 20:18:33 INFO  CommonMethods - Data sucessfully entered on FirstNameCC_XPATH = RAMDEV
+2022-10-08 20:18:33 INFO  CommonMethods - Sucessfully clicked on LastNameCC_XPATH
+2022-10-08 20:18:34 INFO  CommonMethods - Data sucessfully entered on LastNameCC_XPATH = TIWADI
+
+2022-10-08 20:18:34 INFO  CommonMethods - Sucessfully clicked on PincodeCC_XPATH
+2022-10-08 20:18:35 INFO  CommonMethods - Data sucessfully entered on PincodeCC_XPATH = 400093
+2022-10-08 20:18:46 INFO  CommonMethods - Sucessfully clicked on MobileNoCC_XPATH
+2022-10-08 20:18:46 INFO  CommonMethods - Data sucessfully entered on MobileNoCC_XPATH = 9423181234
+2022-10-08 20:18:47 INFO  CommonMethods - Sucessfully clicked on EmailIdCC_XPATH
+2022-10-08 20:18:47 INFO  CommonMethods - Data sucessfully entered on EmailIdCC_XPATH = work@gmail.com
+2022-10-08 20:19:52 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[@id="id_97199353951523"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54317}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54317/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 582ff67e13f2da1e234f2a5fe9328e27
+2022-10-08 20:19:52 INFO  ScreenShot - ScreenShot captured NTBAssistedJourney || Status :Fail
+2022-10-08 20:19:54 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 20:19:55 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 20:19:57 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 20:20:16 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 20:20:16 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 20:20:34 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-10-08 20:20:34 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 20:20:53 INFO  SetUp - Test Case_WCDLOffer_forRenewal_get Skipped as its Runmode is 'NO' 
+2022-10-08 20:20:53 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 20:21:12 INFO  SetUp - Test Case_Kotak_OD_PL_PA_get Skipped as its Runmode is 'NO' 
+2022-10-08 20:21:14 INFO  SetUp - Browser Closed..
+2022-10-08 22:01:49 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 22:01:49 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 22:02:04 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 22:02:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 22:02:08 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 22:02:11 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 22:02:11 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 22:02:46 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:02:48 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 22:02:50 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:02:52 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 22:03:48 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 22:04:02 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 22:04:05 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 22:04:09 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 22:04:11 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 22:05:51 ERROR CommonMethods - Unable to mouse hover due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-link"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54744/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb41b9256a0c5f458388b29a91525975
+2022-10-08 22:05:54 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QuickLinksDiv"]/ul/li[10]/a/span[1]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb41b9256a0c5f458388b29a91525975, findElement {using=xpath, value=//*[@id="QuickLinksDiv"]/ul/li[10]/a/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54744}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54744/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb41b9256a0c5f458388b29a91525975
+2022-10-08 22:05:54 INFO  ScreenShot - ScreenShot captured NTBAssistedJourney || Status :Fail
+2022-10-08 22:08:07 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 22:08:07 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 22:08:23 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 22:08:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 22:08:27 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 22:08:29 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 22:08:30 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 22:09:13 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:09:16 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 22:09:18 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:09:20 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 22:10:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 22:10:55 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 22:10:58 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 22:11:01 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 22:11:04 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [292ea9e77961796df35875d1c46bb157, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54948/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 292ea9e77961796df35875d1c46bb157
+2022-10-08 22:11:04 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [292ea9e77961796df35875d1c46bb157, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54948/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 292ea9e77961796df35875d1c46bb157
+2022-10-08 22:11:18 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 22:11:20 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 22:11:22 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 22:11:34 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:11:34 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 22:11:46 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:11:46 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 22:11:58 INFO  SetUp - Test Case_WCDLOffer_forRenewal_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:11:58 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 22:12:12 INFO  SetUp - Test Case_Kotak_OD_PL_PA_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:12:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 22:12:40 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 22:12:55 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 22:12:55 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 22:12:59 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 22:13:01 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 22:13:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 22:13:32 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:13:35 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 22:13:36 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:13:39 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 22:14:27 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 22:14:33 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 22:14:36 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 22:14:40 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 22:14:42 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32da3ef7e07348ac63f45510f7971216, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55095/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32da3ef7e07348ac63f45510f7971216
+2022-10-08 22:14:42 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32da3ef7e07348ac63f45510f7971216, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55095}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55095/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32da3ef7e07348ac63f45510f7971216
+2022-10-08 22:14:57 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 22:14:59 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 22:15:01 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 22:15:18 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:15:18 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 22:15:32 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:15:32 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 22:15:43 INFO  SetUp - Test Case_WCDLOffer_forRenewal_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:15:43 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 22:15:57 INFO  SetUp - Test Case_Kotak_OD_PL_PA_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:15:57 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 22:15:58 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 22:16:13 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 22:16:13 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 22:16:18 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 22:16:19 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 22:16:19 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 22:16:20 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 22:16:20 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 22:16:40 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 22:16:40 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 22:16:45 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 22:16:48 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:16:48 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 22:16:48 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 22:16:50 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 22:16:52 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:16:54 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 22:17:19 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:17:22 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 22:17:23 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:17:25 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 22:17:28 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 22:17:34 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 22:17:37 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 22:17:41 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 22:17:43 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 22:17:52 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 22:17:52 INFO  NTBAssistedJourneyCC - digital card journey initiated
+2022-10-08 22:17:52 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 22:18:05 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 22:18:08 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 22:18:11 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 22:18:13 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 22:18:21 INFO  NTBAssistedJourneyCC - digital card journey initiated
+2022-10-08 22:18:21 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 22:20:45 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/vivid/vividflow/run/cc_etb_flow#startLoader
+2022-10-08 22:20:46 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/vivid/vividflow/run/cc_etb_flow#startLoader
+2022-10-08 22:21:04 INFO  CommonMethods - Data = 40,000 to 74,999 Sucessfully Selected from dropdown MonthlyIncomeCC_XPATH
+2022-10-08 22:21:05 INFO  CommonMethods - Data = 40,000 to 74,999 Sucessfully Selected from dropdown MonthlyIncomeCC_XPATH
+2022-10-08 22:22:35 ERROR CommonMethods - Not Sucessfully clicked on FirstNameCC_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id="txtid_343435535"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55229/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c340ee6e2a6fbdddee175ee2dcc9e34
+2022-10-08 22:22:35 ERROR CommonMethods - Data Not Sucessfully entered on FirstNameCC_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="txtid_343435535"]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c340ee6e2a6fbdddee175ee2dcc9e34, findElement {using=xpath, value=//input[@id="txtid_343435535"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55229/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c340ee6e2a6fbdddee175ee2dcc9e34
+2022-10-08 22:22:47 INFO  CommonMethods - Sucessfully clicked on FirstNameCC_XPATH
+2022-10-08 22:22:49 INFO  CommonMethods - Data sucessfully entered on FirstNameCC_XPATH = RAMDEV
+2022-10-08 22:22:50 INFO  CommonMethods - Sucessfully clicked on LastNameCC_XPATH
+2022-10-08 22:22:53 INFO  CommonMethods - Data sucessfully entered on LastNameCC_XPATH = TIWADI
+
+2022-10-08 22:22:54 INFO  CommonMethods - Sucessfully clicked on PincodeCC_XPATH
+2022-10-08 22:22:56 INFO  CommonMethods - Data sucessfully entered on PincodeCC_XPATH = 400093
+2022-10-08 22:23:08 INFO  CommonMethods - Sucessfully clicked on MobileNoCC_XPATH
+2022-10-08 22:23:10 INFO  CommonMethods - Data sucessfully entered on MobileNoCC_XPATH = 9423181234
+2022-10-08 22:23:11 INFO  CommonMethods - Sucessfully clicked on EmailIdCC_XPATH
+2022-10-08 22:23:14 INFO  CommonMethods - Data sucessfully entered on EmailIdCC_XPATH = work@gmail.com
+2022-10-08 22:23:35 ERROR CommonMethods - Not Sucessfully clicked on LastNameCC_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@data-tip="Please enter last name"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55229/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c340ee6e2a6fbdddee175ee2dcc9e34
+2022-10-08 22:23:35 ERROR CommonMethods - Data Not Sucessfully entered on LastNameCC_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-tip="Please enter last name"]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4c340ee6e2a6fbdddee175ee2dcc9e34, findElement {using=xpath, value=//input[@data-tip="Please enter last name"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55229/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c340ee6e2a6fbdddee175ee2dcc9e34
+2022-10-08 22:24:16 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[@id="id_97199353951523"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55284}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55284/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e6ac2f03fc1d34cbe32af5af1c98022
+2022-10-08 22:24:16 INFO  ScreenShot - ScreenShot captured NTBAssistedJourney || Status :Fail
+2022-10-08 22:24:27 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 22:24:29 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 22:24:30 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 22:24:36 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="id_128573398885672"]/div[2]/div/div/input (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55229/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c340ee6e2a6fbdddee175ee2dcc9e34
+2022-10-08 22:24:36 INFO  ScreenShot - ScreenShot captured NTBAssistedJourney || Status :Fail
+2022-10-08 22:24:45 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:24:45 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 22:24:52 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 22:24:54 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 22:24:54 ERROR SetUp - WCDLOffer_forSublimit Get Failed due to 
+Truncated ZIP file
+2022-10-08 22:24:54 INFO  ScreenShot - ScreenShot captured WCDLOffer_forSublimit || Status :Fail
+2022-10-08 22:24:54 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 22:24:54 ERROR SetUp - WCDLOffer_forRenewal Get Failed due to 
+Truncated ZIP file
+2022-10-08 22:24:55 INFO  ScreenShot - ScreenShot captured WCDLOffer_forRenewal || Status :Fail
+2022-10-08 22:24:56 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 22:25:13 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forRenewal is = 18
+2022-10-08 22:25:14 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:25:14 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 22:25:16 INFO  ExcelOperation - Write to excel with : Row=18 | Cell =3 | Data =Fail
+2022-10-08 22:25:16 ERROR SetUp - WCDLOffer_forSublimit Get Failed due to 
+Truncated ZIP file
+2022-10-08 22:25:16 INFO  ScreenShot - ScreenShot captured WCDLOffer_forSublimit || Status :Fail
+2022-10-08 22:25:17 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 22:25:34 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-10-08 22:25:36 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Fail
+2022-10-08 22:25:36 ERROR SetUp - Kotak_OD_PL_PA Get Failed due to 
+Truncated ZIP file
+2022-10-08 22:25:36 INFO  ScreenShot - ScreenShot captured Kotak_OD_PL_PA || Status :Fail
+2022-10-08 22:25:37 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 22:25:54 INFO  CommonMethods - Row num for TestScenario = Kotak_OD_PL_PA is = 19
+2022-10-08 22:25:55 INFO  SetUp - Test Case_WCDLOffer_forRenewal_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:25:55 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 22:25:56 INFO  ExcelOperation - Write to excel with : Row=19 | Cell =3 | Data =Fail
+2022-10-08 22:25:59 INFO  SetUp - Browser Closed..
+2022-10-08 22:26:10 INFO  SetUp - Test Case_Kotak_OD_PL_PA_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:26:12 INFO  SetUp - Browser Closed..
+2022-10-08 22:27:30 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 22:27:30 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 22:27:44 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 22:27:44 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 22:27:48 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 22:27:51 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 22:27:52 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 22:28:18 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:28:21 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 22:28:22 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:28:24 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 22:28:51 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 22:29:01 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 22:29:03 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 22:29:07 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 22:29:09 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 22:30:31 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="QuickLinksDiv"]/ul/li[10]/a/span[1]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a7ba7cc36329e8e8e21ea0487c1131b, findElement {using=xpath, value=//*[@id="QuickLinksDiv"]/ul/li[10]/a/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55639/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a7ba7cc36329e8e8e21ea0487c1131b
+2022-10-08 22:30:31 INFO  ScreenShot - ScreenShot captured NTBAssistedJourney || Status :Fail
+2022-10-08 22:30:45 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 22:30:47 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 22:30:48 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 22:31:04 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:31:05 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 22:31:17 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:31:17 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 22:31:29 INFO  SetUp - Test Case_WCDLOffer_forRenewal_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:31:29 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 22:31:41 INFO  SetUp - Test Case_Kotak_OD_PL_PA_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:31:43 INFO  SetUp - Browser Closed..
+2022-10-08 22:33:16 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 22:33:16 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 22:33:30 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 22:33:30 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 22:33:35 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 22:33:37 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 22:33:38 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 22:34:05 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:34:07 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 22:34:08 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:34:09 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 22:34:37 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 22:34:45 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 22:34:48 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 22:34:51 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 22:34:53 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 22:35:08 INFO  NTBAssistedJourneyCC - digital card journey initiated
+2022-10-08 22:35:08 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 22:35:25 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/vivid/vividflow/run/cc_etb_flow#CustomerSelection
+2022-10-08 22:35:37 INFO  CommonMethods - Data = 40,000 to 74,999 Sucessfully Selected from dropdown MonthlyIncomeCC_XPATH
+2022-10-08 22:36:44 INFO  CommonMethods - Sucessfully clicked on FirstNameCC_XPATH
+2022-10-08 22:36:46 INFO  CommonMethods - Data sucessfully entered on FirstNameCC_XPATH = RAMDEV
+2022-10-08 22:36:47 INFO  CommonMethods - Sucessfully clicked on LastNameCC_XPATH
+2022-10-08 22:36:49 INFO  CommonMethods - Data sucessfully entered on LastNameCC_XPATH = TIWADI
+
+2022-10-08 22:36:50 INFO  CommonMethods - Sucessfully clicked on PincodeCC_XPATH
+2022-10-08 22:36:53 INFO  CommonMethods - Data sucessfully entered on PincodeCC_XPATH = 400093
+2022-10-08 22:37:06 INFO  CommonMethods - Sucessfully clicked on MobileNoCC_XPATH
+2022-10-08 22:37:08 INFO  CommonMethods - Data sucessfully entered on MobileNoCC_XPATH = 9423181234
+2022-10-08 22:37:09 INFO  CommonMethods - Sucessfully clicked on EmailIdCC_XPATH
+2022-10-08 22:37:11 INFO  CommonMethods - Data sucessfully entered on EmailIdCC_XPATH = work@gmail.com
+2022-10-08 22:37:54 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =26 | Data =1318002
+2022-10-08 22:38:05 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:38:07 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-10-08 22:38:09 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:38:10 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_123
+2022-10-08 22:40:53 INFO  ScreenShot - ScreenShot captured loginpage for lead search from admin || Status :pass
+2022-10-08 22:41:07 INFO  CommonMethods - Sucessfully clicked on LeadIdCC_XPATH
+2022-10-08 22:41:09 INFO  CommonMethods - Data sucessfully entered on LeadIdCC_XPATH = 1318002
+2022-10-08 22:42:39 INFO  ScreenShot - ScreenShot captured Thank you for confirmation page || Status :pass
+2022-10-08 22:42:41 ERROR CommonMethods - Not able switch to window Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55798/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+2022-10-08 22:42:41 ERROR CommonMethods - Not able to Mouseclick due to Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id="missing_888"]//*[@id="id_128899520262396"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55798/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+2022-10-08 22:42:41 ERROR CommonMethods - Not able to Mouseclick due to Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//button[@class="icon icon-calendarpick calendarButtonFontSizeundefined"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55798/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+2022-10-08 22:42:42 ERROR CommonMethods - Not able to Mouseclick due to Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id="calenderOutterDiv"]/div[2]/div[1]/div[2]/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55798/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+2022-10-08 22:42:43 ERROR CommonMethods - Not able to Mouseclick due to Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id="calenderOutterDiv"]/div[2]/div[1]/div[1]/select}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55798/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+2022-10-08 22:42:44 ERROR CommonMethods - Not able to Mouseclick due to Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//*[@id="calenderOutterDiv"]/div[2]/div[2]/div/div/div/div[2]/button[30]/time}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55798/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+2022-10-08 22:42:45 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//select[@data-tip="Please Select Occupation"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55798/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+2022-10-08 22:42:45 ERROR ScreenShot - Unbale to capture screenshot due to Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55798}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55798/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+2022-10-08 22:42:54 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 22:42:55 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 22:42:56 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 22:43:06 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:43:06 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 22:43:15 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:43:15 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 22:43:26 INFO  SetUp - Test Case_WCDLOffer_forRenewal_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:43:26 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 22:43:37 INFO  SetUp - Test Case_Kotak_OD_PL_PA_get Skipped as its Runmode is 'NO' 
+2022-10-08 22:53:05 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 22:53:05 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 22:53:18 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 22:53:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 22:53:22 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 22:53:24 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 22:53:25 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 22:53:50 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:53:53 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 22:53:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:53:56 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 22:54:22 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 22:54:27 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 22:54:30 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 22:54:33 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 22:54:35 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 22:54:40 INFO  NTBAssistedJourneyCC - digital card journey initiated
+2022-10-08 22:54:40 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 22:54:50 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/vivid/vividflow/run/cc_etb_flow#CustomerSelection
+2022-10-08 22:55:00 INFO  CommonMethods - Data = 40,000 to 74,999 Sucessfully Selected from dropdown MonthlyIncomeCC_XPATH
+2022-10-08 22:55:35 INFO  CommonMethods - Sucessfully clicked on FirstNameCC_XPATH
+2022-10-08 22:55:38 INFO  CommonMethods - Data sucessfully entered on FirstNameCC_XPATH = RAMDEV
+2022-10-08 22:55:39 INFO  CommonMethods - Sucessfully clicked on LastNameCC_XPATH
+2022-10-08 22:55:41 INFO  CommonMethods - Data sucessfully entered on LastNameCC_XPATH = TIWADI
+
+2022-10-08 22:55:42 INFO  CommonMethods - Sucessfully clicked on PincodeCC_XPATH
+2022-10-08 22:55:44 INFO  CommonMethods - Data sucessfully entered on PincodeCC_XPATH = 400093
+2022-10-08 22:55:57 INFO  CommonMethods - Sucessfully clicked on MobileNoCC_XPATH
+2022-10-08 22:55:59 INFO  CommonMethods - Data sucessfully entered on MobileNoCC_XPATH = 9423181234
+2022-10-08 22:56:00 INFO  CommonMethods - Sucessfully clicked on EmailIdCC_XPATH
+2022-10-08 22:56:03 INFO  CommonMethods - Data sucessfully entered on EmailIdCC_XPATH = work@gmail.com
+2022-10-08 22:56:15 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =26 | Data =1318003
+2022-10-08 22:56:21 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 22:56:23 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-10-08 22:56:24 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 22:56:26 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_123
+2022-10-08 22:56:33 INFO  ScreenShot - ScreenShot captured loginpage for lead search from admin || Status :pass
+2022-10-08 22:56:36 INFO  CommonMethods - Sucessfully clicked on LeadIdCC_XPATH
+2022-10-08 22:56:38 INFO  CommonMethods - Data sucessfully entered on LeadIdCC_XPATH = 1318003
+2022-10-08 22:57:52 INFO  ScreenShot - ScreenShot captured Thank you for confirmation page || Status :pass
+2022-10-08 22:57:52 ERROR CommonMethods - Not able switch to window no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13b2e5a67f52a2e3171943aa55fbe858, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b2e5a67f52a2e3171943aa55fbe858
+2022-10-08 22:58:52 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="missing_888"]//*[@id="id_128899520262396"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-08 22:59:52 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class="icon icon-calendarpick calendarButtonFontSizeundefined"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-08 23:00:17 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 23:00:17 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 23:00:31 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 23:00:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 23:00:35 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 23:00:38 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 23:00:38 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 23:00:53 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="calenderOutterDiv"]/div[2]/div[1]/div[2]/select (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-08 23:01:06 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 23:01:09 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 23:01:10 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 23:01:12 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 23:01:25 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 23:01:30 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 23:01:32 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 23:01:36 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 23:01:38 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 23:01:43 INFO  NTBAssistedJourneyCC - digital card journey initiated
+2022-10-08 23:01:43 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 23:01:50 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/vivid/vividflow/run/cc_etb_flow#CustomerSelection
+2022-10-08 23:01:54 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="calenderOutterDiv"]/div[2]/div[1]/div[1]/select (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-08 23:02:02 INFO  CommonMethods - Data = 40,000 to 74,999 Sucessfully Selected from dropdown MonthlyIncomeCC_XPATH
+2022-10-08 23:02:26 INFO  CommonMethods - Sucessfully clicked on FirstNameCC_XPATH
+2022-10-08 23:02:28 INFO  CommonMethods - Data sucessfully entered on FirstNameCC_XPATH = RAMDEV
+2022-10-08 23:02:29 INFO  CommonMethods - Sucessfully clicked on LastNameCC_XPATH
+2022-10-08 23:02:32 INFO  CommonMethods - Data sucessfully entered on LastNameCC_XPATH = TIWADI
+
+2022-10-08 23:02:33 INFO  CommonMethods - Sucessfully clicked on PincodeCC_XPATH
+2022-10-08 23:02:35 INFO  CommonMethods - Data sucessfully entered on PincodeCC_XPATH = 400093
+2022-10-08 23:02:48 INFO  CommonMethods - Sucessfully clicked on MobileNoCC_XPATH
+2022-10-08 23:02:51 INFO  CommonMethods - Data sucessfully entered on MobileNoCC_XPATH = 9423181234
+2022-10-08 23:02:52 INFO  CommonMethods - Sucessfully clicked on EmailIdCC_XPATH
+2022-10-08 23:02:54 INFO  CommonMethods - Data sucessfully entered on EmailIdCC_XPATH = work@gmail.com
+2022-10-08 23:02:55 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="calenderOutterDiv"]/div[2]/div[2]/div/div/div/div[2]/button[30]/time (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-08 23:02:56 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13b2e5a67f52a2e3171943aa55fbe858, findElement {using=xpath, value=//select[@data-tip="Please Select Occupation"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b2e5a67f52a2e3171943aa55fbe858
+2022-10-08 23:02:56 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13b2e5a67f52a2e3171943aa55fbe858, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b2e5a67f52a2e3171943aa55fbe858
+2022-10-08 23:03:07 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =26 | Data =1318004
+2022-10-08 23:03:08 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 23:03:08 ERROR SetUp - WCDLOffer_forAdhoc Get Failed due to 
+The supplied file was empty (zero bytes long)
+2022-10-08 23:03:08 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13b2e5a67f52a2e3171943aa55fbe858, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b2e5a67f52a2e3171943aa55fbe858
+2022-10-08 23:03:08 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 23:03:08 ERROR SetUp - WCDLOffer_forSublimit Get Failed due to 
+The supplied file was empty (zero bytes long)
+2022-10-08 23:03:08 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13b2e5a67f52a2e3171943aa55fbe858, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b2e5a67f52a2e3171943aa55fbe858
+2022-10-08 23:03:08 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 23:03:08 ERROR SetUp - WCDLOffer_forRenewal Get Failed due to 
+The supplied file was empty (zero bytes long)
+2022-10-08 23:03:08 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13b2e5a67f52a2e3171943aa55fbe858, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b2e5a67f52a2e3171943aa55fbe858
+2022-10-08 23:03:08 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 23:03:08 ERROR SetUp - Kotak_OD_PL_PA Get Failed due to 
+The supplied file was empty (zero bytes long)
+2022-10-08 23:03:08 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13b2e5a67f52a2e3171943aa55fbe858, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56201}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 13b2e5a67f52a2e3171943aa55fbe858
+2022-10-08 23:03:14 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 23:03:17 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-10-08 23:03:18 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 23:03:20 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_123
+2022-10-08 23:03:27 INFO  ScreenShot - ScreenShot captured loginpage for lead search from admin || Status :pass
+2022-10-08 23:03:31 INFO  CommonMethods - Sucessfully clicked on LeadIdCC_XPATH
+2022-10-08 23:03:33 INFO  CommonMethods - Data sucessfully entered on LeadIdCC_XPATH = 1318004
+2022-10-08 23:04:02 INFO  ScreenShot - ScreenShot captured Thank you for confirmation page || Status :pass
+2022-10-08 23:04:02 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 23:04:02 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 23:04:02 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/Vivid/vividflow/run#GetStatus
+2022-10-08 23:04:02 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/crmnextobject/detail/Lead?x=x954rn99eezuqm7amn65q44chvjjxr9bsuphz3aaa5paz9yqj9edvuck9ggu8bv63zz62nmys3bwjujfgzmuthq6b4ac8x4ej8qd4dqjgrg2xwv3yaaa
+2022-10-08 23:05:03 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="missing_888"]//*[@id="id_128899520262396"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56426/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3f07156c3f10ed8cbff0086533c9e25
+2022-10-08 23:06:03 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //button[@class="icon icon-calendarpick calendarButtonFontSizeundefined"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56426/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3f07156c3f10ed8cbff0086533c9e25
+2022-10-08 23:07:04 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="calenderOutterDiv"]/div[2]/div[1]/div[2]/select (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56426/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3f07156c3f10ed8cbff0086533c9e25
+2022-10-08 23:08:05 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="calenderOutterDiv"]/div[2]/div[1]/div[1]/select (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56426/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3f07156c3f10ed8cbff0086533c9e25
+2022-10-08 23:09:06 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="calenderOutterDiv"]/div[2]/div[2]/div/div/div/div[2]/button[30]/time (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56426/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3f07156c3f10ed8cbff0086533c9e25
+2022-10-08 23:09:07 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"//select[@data-tip="Please Select Occupation"]"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a3f07156c3f10ed8cbff0086533c9e25, findElement {using=xpath, value=//select[@data-tip="Please Select Occupation"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56426/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3f07156c3f10ed8cbff0086533c9e25
+2022-10-08 23:09:07 INFO  ScreenShot - ScreenShot captured NTBAssistedJourney || Status :Fail
+2022-10-08 23:09:18 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 23:09:20 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 23:09:21 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 23:09:32 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:09:32 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 23:09:43 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:09:43 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 23:09:54 INFO  SetUp - Test Case_WCDLOffer_forRenewal_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:09:54 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 23:10:07 INFO  SetUp - Test Case_Kotak_OD_PL_PA_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:10:09 INFO  SetUp - Browser Closed..
+2022-10-08 23:14:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 23:14:21 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 23:14:39 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 23:14:39 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 23:14:43 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 23:14:46 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 23:14:46 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 23:15:09 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 23:15:11 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 23:15:12 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 23:15:14 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 23:15:23 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 23:15:28 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 23:15:31 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 23:15:34 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 23:15:36 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 23:15:43 INFO  NTBAssistedJourneyCC - digital card journey initiated
+2022-10-08 23:15:43 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 23:15:49 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/vivid/vividflow/run/cc_etb_flow#CustomerSelection
+2022-10-08 23:15:59 INFO  CommonMethods - Data = 40,000 to 74,999 Sucessfully Selected from dropdown MonthlyIncomeCC_XPATH
+2022-10-08 23:16:13 INFO  CommonMethods - Sucessfully clicked on FirstNameCC_XPATH
+2022-10-08 23:16:15 INFO  CommonMethods - Data sucessfully entered on FirstNameCC_XPATH = RAMDEV
+2022-10-08 23:16:16 INFO  CommonMethods - Sucessfully clicked on LastNameCC_XPATH
+2022-10-08 23:16:18 INFO  CommonMethods - Data sucessfully entered on LastNameCC_XPATH = TIWADI
+
+2022-10-08 23:16:19 INFO  CommonMethods - Sucessfully clicked on PincodeCC_XPATH
+2022-10-08 23:16:22 INFO  CommonMethods - Data sucessfully entered on PincodeCC_XPATH = 400093
+2022-10-08 23:16:35 INFO  CommonMethods - Sucessfully clicked on MobileNoCC_XPATH
+2022-10-08 23:16:37 INFO  CommonMethods - Data sucessfully entered on MobileNoCC_XPATH = 9423181234
+2022-10-08 23:16:38 INFO  CommonMethods - Sucessfully clicked on EmailIdCC_XPATH
+2022-10-08 23:16:40 INFO  CommonMethods - Data sucessfully entered on EmailIdCC_XPATH = work@gmail.com
+2022-10-08 23:16:50 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =26 | Data =1318005
+2022-10-08 23:16:57 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 23:16:59 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-10-08 23:17:01 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 23:17:03 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_123
+2022-10-08 23:17:09 INFO  ScreenShot - ScreenShot captured loginpage for lead search from admin || Status :pass
+2022-10-08 23:17:14 INFO  CommonMethods - Sucessfully clicked on LeadIdCC_XPATH
+2022-10-08 23:17:16 INFO  CommonMethods - Data sucessfully entered on LeadIdCC_XPATH = 1318005
+2022-10-08 23:18:00 INFO  ScreenShot - ScreenShot captured Thank you for confirmation page || Status :pass
+2022-10-08 23:18:00 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+null
+2022-10-08 23:18:00 INFO  ScreenShot - ScreenShot captured NTBAssistedJourney || Status :Fail
+2022-10-08 23:18:15 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 23:18:17 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 23:18:18 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 23:18:30 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:18:30 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-10-08 23:18:41 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:18:41 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-10-08 23:18:52 INFO  SetUp - Test Case_WCDLOffer_forRenewal_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:18:52 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-08 23:19:04 INFO  SetUp - Test Case_Kotak_OD_PL_PA_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:19:06 INFO  SetUp - Browser Closed..
+2022-10-08 23:19:17 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-08 23:19:18 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-10-08 23:19:31 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-08 23:19:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-08 23:19:35 INFO  SetUp - Chrome Browser Launched..
+2022-10-08 23:19:37 INFO  SetUp - URL : https://crmmobileuat.kotak.com/sn
+2022-10-08 23:19:37 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-08 23:20:01 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 23:20:04 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = CCDSE
+2022-10-08 23:20:05 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 23:20:07 INFO  CommonMethods - Data sucessfully entered on password_XPATH = kotak@123
+2022-10-08 23:20:14 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-08 23:20:19 INFO  CommonMethods - Sucessfully clicked on MobileNoInDedupeCC_XPATH
+2022-10-08 23:20:21 INFO  CommonMethods - Data sucessfully entered on MobileNoInDedupeCC_XPATH = 9423181234
+2022-10-08 23:20:25 INFO  ScreenShot - ScreenShot captured Lead has been cleared || Status :Pass
+2022-10-08 23:20:27 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/CRMNextObject/Home/Summary
+2022-10-08 23:20:32 INFO  NTBAssistedJourneyCC - digital card journey initiated
+2022-10-08 23:20:32 INFO  CommonMethods - Swiched to Child window name : CRMnext - Smart.Easy.Complete || URL :https://crmmobileuat.kotak.com/sn/app/Widget/RenderWidget?x=6negmvntcw2b9hyncdql8vsjln9g72ratccgtuxvw97ck7y9934q&winpop=1
+2022-10-08 23:20:39 INFO  CommonMethods - Swiched to Child window name : Customer Digital Journey || URL :https://crmdapuat.kotak.com/vivid/vividflow/run/cc_etb_flow#CustomerSelection
+2022-10-08 23:20:53 INFO  CommonMethods - Data = 40,000 to 74,999 Sucessfully Selected from dropdown MonthlyIncomeCC_XPATH
+2022-10-08 23:21:09 INFO  CommonMethods - Sucessfully clicked on FirstNameCC_XPATH
+2022-10-08 23:21:11 INFO  CommonMethods - Data sucessfully entered on FirstNameCC_XPATH = RAMDEV
+2022-10-08 23:21:12 INFO  CommonMethods - Sucessfully clicked on LastNameCC_XPATH
+2022-10-08 23:21:14 INFO  CommonMethods - Data sucessfully entered on LastNameCC_XPATH = TIWADI
+
+2022-10-08 23:21:15 INFO  CommonMethods - Sucessfully clicked on PincodeCC_XPATH
+2022-10-08 23:21:17 INFO  CommonMethods - Data sucessfully entered on PincodeCC_XPATH = 400093
+2022-10-08 23:21:30 INFO  CommonMethods - Sucessfully clicked on MobileNoCC_XPATH
+2022-10-08 23:21:33 INFO  CommonMethods - Data sucessfully entered on MobileNoCC_XPATH = 9423181234
+2022-10-08 23:21:34 INFO  CommonMethods - Sucessfully clicked on EmailIdCC_XPATH
+2022-10-08 23:21:36 INFO  CommonMethods - Data sucessfully entered on EmailIdCC_XPATH = work@gmail.com
+2022-10-08 23:21:45 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =26 | Data =1318006
+2022-10-08 23:21:52 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-08 23:21:54 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-10-08 23:21:55 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-08 23:21:57 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_123
+2022-10-08 23:22:05 INFO  ScreenShot - ScreenShot captured loginpage for lead search from admin || Status :pass
+2022-10-08 23:22:08 INFO  CommonMethods - Sucessfully clicked on LeadIdCC_XPATH
+2022-10-08 23:22:10 INFO  CommonMethods - Data sucessfully entered on LeadIdCC_XPATH = 1318006
+2022-10-08 23:22:41 INFO  ScreenShot - ScreenShot captured Thank you for confirmation page || Status :pass
+2022-10-08 23:22:41 ERROR SetUp - NTBAssistedJourney Get Failed due to 
+null
+2022-10-08 23:22:42 INFO  ScreenShot - ScreenShot captured NTBAssistedJourney || Status :Fail
+2022-10-08 23:22:56 INFO  CommonMethods - Row num for TestScenario = NTBAssistedJourney is = 15
+2022-10-08 23:22:58 INFO  ExcelOperation - Write to excel with : Row=15 | Cell =3 | Data =Fail
+2022-10-08 23:22:59 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-10-08 23:23:15 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-10-08 23:23:15 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started

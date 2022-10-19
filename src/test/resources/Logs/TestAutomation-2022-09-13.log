@@ -1,0 +1,158 @@
+2022-09-13 12:49:10 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-13 12:49:10 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-09-13 12:49:12 INFO  SetUp - Test Case_NTBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:12 INFO  SetUp - Test Case_ETBLeadJourney_Successfully Started
+2022-09-13 12:49:13 INFO  SetUp - Test Case_ETBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:13 INFO  SetUp - Test Case_CreateTaskOnLead_Successfully Started
+2022-09-13 12:49:15 INFO  SetUp - Test Case_CreateTaskOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:15 INFO  SetUp - Test Case_CreateAppointmentOnLead_Successfully Started
+2022-09-13 12:49:16 INFO  SetUp - Test Case_CreateAppointmentOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:16 INFO  SetUp - Test Case_MandatoryRuleAlert_Successfully Started
+2022-09-13 12:49:18 INFO  SetUp - Test Case_MandatoryRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:18 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-09-13 12:49:21 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:21 INFO  SetUp - Test Case_DedupeRuleAlert_Successfully Started
+2022-09-13 12:49:23 INFO  SetUp - Test Case_DedupeRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:23 INFO  SetUp - Test Case_NTBLeadJourneyForCar_Successfully Started
+2022-09-13 12:49:26 INFO  SetUp - Test Case_NTBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:26 INFO  SetUp - Test Case_ETBLeadJourneyForCar_Successfully Started
+2022-09-13 12:49:29 INFO  SetUp - Test Case_ETBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:29 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_Successfully Started
+2022-09-13 12:49:32 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:32 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_Successfully Started
+2022-09-13 12:49:35 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:35 INFO  SetUp - Test Case_MandatoryAlertOfCar_Successfully Started
+2022-09-13 12:49:40 INFO  SetUp - Test Case_MandatoryAlertOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:40 INFO  SetUp - Test Case_ValidationAlertOnCar_Successfully Started
+2022-09-13 12:49:44 INFO  SetUp - Test Case_ValidationAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:44 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_Successfully Started
+2022-09-13 12:49:48 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:48 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-09-13 12:49:52 INFO  SetUp - Test Case_NTBAssistedJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:49:52 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-13 12:49:58 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-13 12:49:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-13 12:50:01 INFO  SetUp - Chrome Browser Launched..
+2022-09-13 12:50:02 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-13 12:50:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-13 12:50:02 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-13 12:50:03 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-13 12:50:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-13 12:50:04 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-13 12:50:12 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-13 12:51:33 ERROR CommonMethods - Not able to Mouseclick due to chrome not reachable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c2912c85f6753424443769d9745f79d, findElement {using=xpath, value=//*[@id="js-vnav"]/li[2]/div/div[1]/a/i}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51651/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c2912c85f6753424443769d9745f79d
+2022-09-13 12:51:45 ERROR CommonMethods - Not able to Mouseclick due to chrome not reachable
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c2912c85f6753424443769d9745f79d, findElement {using=xpath, value=//*[@id="js-vnav"]/li[2]/div/div[2]/ul/li[4]/a/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51651/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c2912c85f6753424443769d9745f79d
+2022-09-13 12:54:09 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-13 12:54:09 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-09-13 12:54:10 INFO  SetUp - Test Case_NTBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:10 INFO  SetUp - Test Case_ETBLeadJourney_Successfully Started
+2022-09-13 12:54:11 INFO  SetUp - Test Case_ETBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:11 INFO  SetUp - Test Case_CreateTaskOnLead_Successfully Started
+2022-09-13 12:54:11 INFO  SetUp - Test Case_CreateTaskOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:11 INFO  SetUp - Test Case_CreateAppointmentOnLead_Successfully Started
+2022-09-13 12:54:11 INFO  SetUp - Test Case_CreateAppointmentOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:11 INFO  SetUp - Test Case_MandatoryRuleAlert_Successfully Started
+2022-09-13 12:54:12 INFO  SetUp - Test Case_MandatoryRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:12 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-09-13 12:54:12 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:12 INFO  SetUp - Test Case_DedupeRuleAlert_Successfully Started
+2022-09-13 12:54:12 INFO  SetUp - Test Case_DedupeRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:12 INFO  SetUp - Test Case_NTBLeadJourneyForCar_Successfully Started
+2022-09-13 12:54:13 INFO  SetUp - Test Case_NTBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:13 INFO  SetUp - Test Case_ETBLeadJourneyForCar_Successfully Started
+2022-09-13 12:54:13 INFO  SetUp - Test Case_ETBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:13 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_Successfully Started
+2022-09-13 12:54:13 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:13 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_Successfully Started
+2022-09-13 12:54:14 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:14 INFO  SetUp - Test Case_MandatoryAlertOfCar_Successfully Started
+2022-09-13 12:54:14 INFO  SetUp - Test Case_MandatoryAlertOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:14 INFO  SetUp - Test Case_ValidationAlertOnCar_Successfully Started
+2022-09-13 12:54:15 INFO  SetUp - Test Case_ValidationAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:15 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_Successfully Started
+2022-09-13 12:54:15 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:15 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-09-13 12:54:16 INFO  SetUp - Test Case_NTBAssistedJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 12:54:16 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-13 12:54:16 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-13 12:54:16 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-13 12:54:19 INFO  SetUp - Chrome Browser Launched..
+2022-09-13 12:54:20 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-13 12:54:20 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-13 12:54:20 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-13 12:54:20 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-13 12:54:20 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-13 12:54:21 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-13 12:54:27 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-13 12:54:51 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-13 12:54:51 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-13 12:56:24 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-13 12:56:31 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-13 12:56:36 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-13 12:56:43 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-13 12:56:45 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-13 12:56:47 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-13 12:56:48 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-13 12:58:54 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[3]/div/div/header/div[2]/span[2]/i      (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51796/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a3239964519f5d7098cca77fe1b6d4ee
+2022-09-13 12:59:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-13 12:59:58 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-09-13 13:00:00 INFO  SetUp - Test Case_NTBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:00 INFO  SetUp - Test Case_ETBLeadJourney_Successfully Started
+2022-09-13 13:00:01 INFO  SetUp - Test Case_ETBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:01 INFO  SetUp - Test Case_CreateTaskOnLead_Successfully Started
+2022-09-13 13:00:03 INFO  SetUp - Test Case_CreateTaskOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:03 INFO  SetUp - Test Case_CreateAppointmentOnLead_Successfully Started
+2022-09-13 13:00:05 INFO  SetUp - Test Case_CreateAppointmentOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:05 INFO  SetUp - Test Case_MandatoryRuleAlert_Successfully Started
+2022-09-13 13:00:07 INFO  SetUp - Test Case_MandatoryRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:07 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-09-13 13:00:09 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:09 INFO  SetUp - Test Case_DedupeRuleAlert_Successfully Started
+2022-09-13 13:00:12 INFO  SetUp - Test Case_DedupeRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:12 INFO  SetUp - Test Case_NTBLeadJourneyForCar_Successfully Started
+2022-09-13 13:00:15 INFO  SetUp - Test Case_NTBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:15 INFO  SetUp - Test Case_ETBLeadJourneyForCar_Successfully Started
+2022-09-13 13:00:18 INFO  SetUp - Test Case_ETBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:18 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_Successfully Started
+2022-09-13 13:00:21 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:21 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_Successfully Started
+2022-09-13 13:00:25 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:25 INFO  SetUp - Test Case_MandatoryAlertOfCar_Successfully Started
+2022-09-13 13:00:29 INFO  SetUp - Test Case_MandatoryAlertOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:29 INFO  SetUp - Test Case_ValidationAlertOnCar_Successfully Started
+2022-09-13 13:00:33 INFO  SetUp - Test Case_ValidationAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:33 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_Successfully Started
+2022-09-13 13:00:38 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:38 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-09-13 13:00:42 INFO  SetUp - Test Case_NTBAssistedJourney_get Skipped as its Runmode is 'NO' 
+2022-09-13 13:00:42 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-13 13:00:48 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-13 13:00:48 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-13 13:00:50 INFO  SetUp - Chrome Browser Launched..
+2022-09-13 13:00:51 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-13 13:00:51 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass

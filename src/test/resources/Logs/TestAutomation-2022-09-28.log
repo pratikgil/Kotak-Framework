@@ -1,0 +1,282 @@
+2022-09-28 12:30:05 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 12:30:05 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 12:30:17 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 12:30:17 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 12:30:28 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 12:30:28 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 12:30:32 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 12:30:33 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 12:30:34 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 12:30:34 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 12:30:36 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 12:30:37 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 12:30:39 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 12:30:50 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 12:31:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 12:31:52 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 12:32:07 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 12:32:07 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 12:32:18 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 12:32:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 12:32:22 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 12:32:24 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 12:32:25 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 12:32:25 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 12:32:27 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 12:32:28 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 12:32:29 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 12:32:34 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 12:38:49 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 12:38:49 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 12:38:53 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 12:38:53 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 12:38:54 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-09-28 12:38:54 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-09-28 12:38:56 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 12:38:56 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 12:39:00 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 12:39:01 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 12:39:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 12:39:02 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 12:39:02 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 12:39:03 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 12:39:03 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 12:39:07 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 12:39:19 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-28 12:39:19 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5241
+2022-09-28 12:39:30 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 12:39:31 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681952
+2022-09-28 12:39:47 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 12:39:47 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 911102503
+2022-09-28 12:40:02 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-28 12:40:02 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005268
+2022-09-28 12:40:08 ERROR SetUp - WCDLOffer_forRenewal Get Failed due to 
+null
+2022-09-28 12:40:08 INFO  ScreenShot - ScreenShot captured WCDLOffer_forRenewal || Status :Fail
+2022-09-28 12:40:10 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forRenewal is = 18
+2022-09-28 12:40:11 INFO  ExcelOperation - Write to excel with : Row=18 | Cell =3 | Data =Fail
+2022-09-28 12:40:14 INFO  SetUp - Browser Closed..
+2022-09-28 12:53:01 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 12:53:01 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 12:53:06 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 12:53:06 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 12:53:08 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-09-28 12:53:08 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-09-28 12:53:10 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 12:53:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 12:53:14 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 12:53:15 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 12:53:16 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 12:53:16 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 12:53:17 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 12:53:17 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 12:53:17 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 12:53:21 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 12:53:31 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-28 12:53:31 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5241
+2022-09-28 12:53:39 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 12:53:39 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-28 12:53:55 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 12:53:55 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-28 12:54:09 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-28 12:54:10 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005241
+2022-09-28 12:54:15 ERROR SetUp - WCDLOffer_forRenewal Get Failed due to 
+null
+2022-09-28 12:54:16 INFO  ScreenShot - ScreenShot captured WCDLOffer_forRenewal || Status :Fail
+2022-09-28 12:54:17 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forRenewal is = 18
+2022-09-28 12:54:18 INFO  ExcelOperation - Write to excel with : Row=18 | Cell =3 | Data =Fail
+2022-09-28 12:54:22 INFO  SetUp - Browser Closed..
+2022-09-28 14:47:48 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 14:47:48 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 14:48:06 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 14:48:06 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 14:48:20 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-09-28 14:48:20 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-09-28 14:48:36 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 14:48:36 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 14:48:41 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 14:48:43 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 14:48:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 14:48:44 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 14:48:47 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 14:48:48 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 14:48:50 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 14:48:56 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 14:49:10 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-28 14:49:13 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5241
+2022-09-28 14:49:23 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 14:49:25 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-28 14:49:41 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 14:49:43 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-28 14:49:58 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-28 14:50:00 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005241
+2022-09-28 14:50:06 ERROR SetUp - WCDLOffer_forRenewal Get Failed due to 
+null
+2022-09-28 14:50:06 INFO  ScreenShot - ScreenShot captured WCDLOffer_forRenewal || Status :Fail
+2022-09-28 14:50:19 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forRenewal is = 18
+2022-09-28 14:50:20 INFO  ExcelOperation - Write to excel with : Row=18 | Cell =3 | Data =Fail
+2022-09-28 14:50:24 INFO  SetUp - Browser Closed..
+2022-09-28 14:51:24 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 14:51:24 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 14:51:41 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 14:51:41 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 14:51:55 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-09-28 14:51:55 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-09-28 14:52:11 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 14:52:11 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 14:52:15 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 14:52:17 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 14:52:18 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 14:52:18 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 14:52:20 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 14:52:21 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 14:52:24 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 14:52:28 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 14:52:41 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-28 14:52:44 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5241
+2022-09-28 14:52:52 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 14:52:54 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-28 14:53:09 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 14:53:10 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-28 14:53:26 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-28 14:53:27 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005241
+2022-09-28 14:53:33 ERROR SetUp - WCDLOffer_forRenewal Get Failed due to 
+null
+2022-09-28 14:53:34 INFO  ScreenShot - ScreenShot captured WCDLOffer_forRenewal || Status :Fail
+2022-09-28 14:53:45 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forRenewal is = 18
+2022-09-28 14:53:47 INFO  ExcelOperation - Write to excel with : Row=18 | Cell =3 | Data =Fail
+2022-09-28 14:53:50 INFO  SetUp - Browser Closed..
+2022-09-28 14:59:42 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 14:59:42 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 14:59:59 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 14:59:59 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 15:00:13 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-09-28 15:00:13 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-09-28 15:00:27 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 15:00:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 15:00:32 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 15:00:34 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 15:00:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 15:00:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 15:00:37 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 15:00:38 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 15:00:40 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 15:00:46 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 15:01:00 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-28 15:01:03 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5241
+2022-09-28 15:01:12 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 15:01:14 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-28 15:01:30 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 15:01:32 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-28 15:01:48 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-28 15:01:50 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005241
+2022-09-28 15:01:59 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-28 15:02:03 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-28 15:03:04 ERROR SetUp - WCDLOffer_forRenewal Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[@title='911102503'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63934/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2d989d5ef129a3668380492009912daa
+2022-09-28 15:03:05 INFO  ScreenShot - ScreenShot captured WCDLOffer_forRenewal || Status :Fail
+2022-09-28 15:03:17 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forRenewal is = 18
+2022-09-28 15:03:19 INFO  ExcelOperation - Write to excel with : Row=18 | Cell =3 | Data =Fail
+2022-09-28 15:03:22 INFO  SetUp - Browser Closed..
+2022-09-28 15:06:42 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 15:06:42 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 15:06:59 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 15:06:59 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 15:07:13 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-09-28 15:07:13 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-09-28 15:07:26 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 15:07:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 15:07:31 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 15:07:33 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 15:07:34 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 15:07:34 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 15:07:36 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 15:07:38 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 15:07:40 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 15:07:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 15:07:58 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-28 15:08:01 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5241
+2022-09-28 15:08:11 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 15:08:13 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-28 15:08:29 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 15:08:31 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-28 15:08:46 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-28 15:08:48 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005241
+2022-09-28 15:08:58 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-28 15:09:01 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-28 15:09:05 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005241
+2022-09-28 15:09:06 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-28 15:09:07 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-28 15:09:07 INFO  ExampleLoginPage - Sucessfully logout..
+2022-09-28 15:09:07 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Passed
+2022-09-28 15:09:21 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forRenewal is = 18
+2022-09-28 15:09:23 INFO  ExcelOperation - Write to excel with : Row=18 | Cell =3 | Data =Pass
+2022-09-28 15:09:26 INFO  SetUp - Browser Closed..
+2022-09-28 15:30:31 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 15:30:31 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-28 15:30:46 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-28 15:30:46 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-28 15:30:58 INFO  SetUp - Test Case_WCDLOffer_forSublimit_get Skipped as its Runmode is 'NO' 
+2022-09-28 15:30:58 INFO  SetUp - Test Case_WCDLOffer_forRenewal_Successfully Started
+2022-09-28 15:31:10 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 15:31:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 15:31:15 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 15:31:17 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-28 15:31:18 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 15:31:18 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 15:31:20 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-28 15:31:21 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 15:31:23 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 15:31:29 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 15:31:41 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-28 15:31:44 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5241
+2022-09-28 15:31:53 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 15:31:55 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-28 15:32:11 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-28 15:32:13 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-28 15:32:28 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-28 15:32:30 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005241
+2022-09-28 15:32:40 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-28 15:32:43 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-28 15:32:47 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005241
+2022-09-28 15:32:55 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-28 15:32:57 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-28 15:32:58 INFO  CommonMethods - Sucessfully clicked on CRNODC_Sublimit_XPATH
+2022-09-28 15:33:00 INFO  CommonMethods - Data sucessfully entered on CRNODC_Sublimit_XPATH = 102678914
+2022-09-28 15:33:04 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-28 15:33:06 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-28 15:34:13 INFO  ScreenShot - ScreenShot captured jorney for WCDL Renewal completed || Status :pass
+2022-09-28 15:35:14 ERROR SetUp - WCDLOffer_forRenewal Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64981}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64981/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e77bdb26ed22f01d9e977c8ffeb1e15
+2022-09-28 15:35:14 INFO  ScreenShot - ScreenShot captured WCDLOffer_forRenewal || Status :Fail
+2022-09-28 15:35:26 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forRenewal is = 18
+2022-09-28 15:35:28 INFO  ExcelOperation - Write to excel with : Row=18 | Cell =3 | Data =Fail
+2022-09-28 15:35:31 INFO  SetUp - Browser Closed..

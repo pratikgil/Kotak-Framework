@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">AutomationTest</th></tr>
+<tr><td><a href="#t0">Test To Verify CRM Login</a></td><td class="num">0</td><td class="num attn">5</td><td class="num">0</td><td class="num attn">1</td><td class="num">120,599</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AutomationTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test To Verify CRM Login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.crm.testCases.Tc15NTBAssistedWithoutDocReq</td><td><a href="#m0">NTBAssistedJourneyWithoutDocCC</a></td><td rowspan="1">1666162276821</td><td rowspan="1">22675</td></tr><tr><th colspan="4">Test To Verify CRM Login &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.crm.testCases.TC16WCDLOffer_ADHOC</td><td><a href="#m1">WCDLOffer_forAdhoc</a></td><td rowspan="1">1666162320265</td><td rowspan="1">17075</td></tr><tr class="skippedodd"><td rowspan="1">com.crm.testCases.TC17WCDLOffer_Sublimit</td><td><a href="#m2">WCDLOffer_forSublimit</a></td><td rowspan="1">1666162337350</td><td rowspan="1">14746</td></tr><tr class="skippedeven"><td rowspan="1">com.crm.testCases.TC18WCDLOffer_Renewal</td><td><a href="#m3">WCDLOffer_forRenewal</a></td><td rowspan="1">1666162352097</td><td rowspan="1">13403</td></tr><tr class="skippedodd"><td rowspan="1">com.crm.testCases.TC19OD_PL_PA</td><td><a href="#m4">Kotak_OD_PL_PA</a></td><td rowspan="1">1666162365504</td><td rowspan="1">13580</td></tr><tr class="skippedeven"><td rowspan="1">com.crm.testCases.Tc20NTBAssistedDocReq</td><td><a href="#m5">NTBAssistedJourneyWithDocCC</a></td><td rowspan="1">1666162379091</td><td rowspan="1">14887</td></tr></tbody>
+</table>
+<h2>Test To Verify CRM Login</h2><h3 id="m0">com.crm.testCases.Tc15NTBAssistedWithoutDocReq#NTBAssistedJourneyWithoutDocCC</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=106.0.5249.119)
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;PRATIKGIL&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [766b323811287f590ed116519acd8a62, get {url=https://crmmobileuat.kotak.com/sn/app/login/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52100/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 766b323811287f590ed116519acd8a62
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
+	at com.crm.base.SetUp.setUpTest1(SetUp.java:48)
+	at com.crm.commonUtilities.CommonMethods.isTestRunnable(CommonMethods.java:315)
+	at com.crm.testCases.Tc15NTBAssistedWithoutDocReq.NTBAssistedJourneyWithoutDocCC(Tc15NTBAssistedWithoutDocReq.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.crm.testCases.TC16WCDLOffer_ADHOC#WCDLOffer_forAdhoc</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test WCDLOffer_forAdhoc as the Run mode is NO
+	at com.crm.testCases.TC16WCDLOffer_ADHOC.WCDLOffer_forAdhoc(TC16WCDLOffer_ADHOC.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.crm.testCases.TC17WCDLOffer_Sublimit#WCDLOffer_forSublimit</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test WCDLOffer_forSublimit as the Run mode is NO
+	at com.crm.testCases.TC17WCDLOffer_Sublimit.WCDLOffer_forSublimit(TC17WCDLOffer_Sublimit.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.crm.testCases.TC18WCDLOffer_Renewal#WCDLOffer_forRenewal</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test WCDLOffer_forRenewal as the Run mode is NO
+	at com.crm.testCases.TC18WCDLOffer_Renewal.WCDLOffer_forRenewal(TC18WCDLOffer_Renewal.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.crm.testCases.TC19OD_PL_PA#Kotak_OD_PL_PA</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test WCDLOffer_forRenewal as the Run mode is NO
+	at com.crm.testCases.TC19OD_PL_PA.Kotak_OD_PL_PA(TC19OD_PL_PA.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.crm.testCases.Tc20NTBAssistedDocReq#NTBAssistedJourneyWithDocCC</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test NTBAssistedJourneyWithDoc as the Run mode is NO
+	at com.crm.testCases.Tc20NTBAssistedDocReq.NTBAssistedJourneyWithDocCC(Tc20NTBAssistedDocReq.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

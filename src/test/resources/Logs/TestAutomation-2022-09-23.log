@@ -1,0 +1,1053 @@
+2022-09-23 11:57:34 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 11:57:35 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 11:57:49 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 11:57:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 11:57:54 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 11:57:55 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 11:57:56 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 11:57:56 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 11:57:58 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 11:57:59 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 11:58:01 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 11:58:06 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 11:58:20 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 11:58:23 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 11:58:30 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 11:58:35 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 11:58:41 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 11:58:51 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 11:58:53 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 11:58:56 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 11:58:58 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 11:59:10 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 11:59:12 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 11:59:18 ERROR SetUp - WCDLOffer Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c2d2a380501535cebcd72cb14081d50, findElement {using=xpath, value=/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65175}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65175/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c2d2a380501535cebcd72cb14081d50
+2022-09-23 11:59:19 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 11:59:41 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 11:59:41 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 11:59:55 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 11:59:55 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 11:59:59 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:00:01 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:00:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:00:02 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:00:03 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:00:05 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:00:07 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:00:12 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:00:28 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:00:30 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:00:38 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:00:43 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:00:48 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:00:59 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 12:01:01 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 12:01:04 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 12:01:06 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 12:01:18 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 12:01:19 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 12:01:25 ERROR SetUp - WCDLOffer Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5ee06f97e5e7e618d0c46a4a03eeaf1, findElement {using=xpath, value=/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65396}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65396/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5ee06f97e5e7e618d0c46a4a03eeaf1
+2022-09-23 12:01:27 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 12:01:39 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 12:01:41 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 12:01:44 INFO  SetUp - Browser Closed..
+2022-09-23 12:06:18 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:06:18 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:06:33 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:06:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 12:06:38 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:06:39 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:06:40 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:06:40 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:06:42 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:06:43 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:06:46 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:06:51 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:07:05 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:07:09 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:07:16 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:07:22 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:07:27 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:07:36 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 12:07:38 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 12:07:41 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 12:07:43 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 12:07:51 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 12:07:53 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 12:14:11 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:14:12 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:14:26 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:14:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 12:14:31 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:14:33 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:14:34 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:14:34 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:14:36 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:14:37 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:14:38 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:14:43 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:14:59 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:15:01 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:15:08 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:15:13 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:15:18 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:15:28 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 12:15:30 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 12:15:32 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 12:15:34 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 12:15:42 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 12:15:43 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 12:18:16 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:18:17 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:18:30 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:18:30 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 12:18:34 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:18:37 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:18:37 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:18:38 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:18:40 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:18:41 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:18:43 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:18:48 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:19:02 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:19:04 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:19:12 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:19:17 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:19:22 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:19:33 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 12:19:35 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 12:19:38 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 12:19:40 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 12:19:51 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 12:19:53 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 12:19:59 ERROR SetUp - WCDLOffer Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05c20ae329c7133255af67fadad712a1, findElement {using=xpath, value=/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50374}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50374/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05c20ae329c7133255af67fadad712a1
+2022-09-23 12:20:02 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 12:20:14 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 12:20:15 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 12:20:19 INFO  SetUp - Browser Closed..
+2022-09-23 12:21:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:21:46 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:21:59 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:21:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 12:22:04 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:22:06 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:22:06 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:22:06 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:22:08 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:22:09 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:22:11 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:22:17 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:22:32 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:22:34 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:22:42 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:22:47 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:22:52 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:23:02 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 12:23:04 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 12:23:07 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 12:23:09 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 12:23:17 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 12:23:18 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 12:23:24 ERROR SetUp - WCDLOffer Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4678c007100e84f0de4f435637a0f3d4, findElement {using=xpath, value=/html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50605/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4678c007100e84f0de4f435637a0f3d4
+2022-09-23 12:23:26 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 12:23:39 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 12:23:40 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 12:23:43 INFO  SetUp - Browser Closed..
+2022-09-23 12:24:12 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:24:12 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:24:27 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:24:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 12:24:32 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:24:34 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:24:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:24:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:24:37 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:24:38 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:24:40 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:24:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:25:00 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:25:03 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:25:10 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:25:16 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:25:21 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:25:32 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 12:25:34 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 12:25:37 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 12:25:39 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 12:25:47 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 12:25:49 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 12:29:45 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id="c_85599692041"] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50845/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbd316e2dcff01c197c309a98bd00fc1
+2022-09-23 12:31:25 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:31:26 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:31:40 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:31:40 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 12:31:44 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:31:46 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:31:47 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:31:47 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:31:49 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:31:50 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:31:52 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:31:56 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:32:09 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:32:12 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:32:19 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:32:25 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:32:30 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:32:42 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 12:32:44 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 12:32:47 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 12:32:49 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 12:32:57 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 12:32:59 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 12:49:44 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:49:44 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:49:49 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:49:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 12:49:52 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:49:53 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:49:53 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:49:53 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:49:54 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:49:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:49:55 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:50:02 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:50:17 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:50:18 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:50:24 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:50:29 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:50:34 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:50:47 ERROR SetUp - WCDLOffer Get Failed due to 
+chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03be93d6b35fd679fbdfb5a97e9f6abe, executeScript {script=window.open(), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52289/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 03be93d6b35fd679fbdfb5a97e9f6abe
+2022-09-23 12:50:58 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [03be93d6b35fd679fbdfb5a97e9f6abe, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52289}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52289/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 03be93d6b35fd679fbdfb5a97e9f6abe
+2022-09-23 12:51:04 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 12:51:06 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 12:51:54 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:51:54 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:51:59 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:51:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 12:52:02 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 12:52:02 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 12:52:03 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 12:52:03 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 12:52:03 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 12:52:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 12:52:04 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 12:52:08 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 12:52:16 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 12:52:17 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 12:52:23 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 12:52:28 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 12:52:32 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 12:55:37 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 12:55:38 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 12:55:41 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 12:55:42 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 12:55:50 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 12:55:50 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 12:56:58 ERROR SetUp - WCDLOffer Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/div[1]/div/div/div[2]/div/div[1]/div/div[2]/div[3]/div[1]/div/input (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52492/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7279a66ed6bb3cf287c795c7096488e
+2022-09-23 12:56:59 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 12:57:03 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 12:57:04 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 12:57:06 INFO  SetUp - Browser Closed..
+2022-09-23 12:59:53 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 12:59:53 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 12:59:59 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 12:59:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 13:00:01 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 13:00:03 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 13:00:03 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 13:00:03 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 13:00:04 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 13:00:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 13:00:05 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 13:00:14 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 13:00:27 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 13:00:28 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 13:00:34 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 13:00:39 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 13:00:44 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 13:01:52 ERROR CommonMethods - Not Sucessfully clicked on RegisteredMobileNoODC_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id="txtid_69621114313849"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52786/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d08800b553801976f5c3698eb7ead0d5
+2022-09-23 13:01:52 ERROR CommonMethods - Data Not Sucessfully entered on RegisteredMobileNoODC_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="txtid_69621114313849"]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d08800b553801976f5c3698eb7ead0d5, findElement {using=xpath, value=//input[@id="txtid_69621114313849"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52786/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d08800b553801976f5c3698eb7ead0d5
+2022-09-23 13:02:54 ERROR CommonMethods - Not Sucessfully clicked on CRNODC_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id="txtc_75920502379"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52786/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d08800b553801976f5c3698eb7ead0d5
+2022-09-23 13:02:54 ERROR CommonMethods - Data Not Sucessfully entered on CRNODC_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="txtc_75920502379"]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d08800b553801976f5c3698eb7ead0d5, findElement {using=xpath, value=//input[@id="txtc_75920502379"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52786/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d08800b553801976f5c3698eb7ead0d5
+2022-09-23 13:03:56 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id="c_75842019142"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52786/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d08800b553801976f5c3698eb7ead0d5
+2022-09-23 13:04:59 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class="notification-dismiss"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52786/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d08800b553801976f5c3698eb7ead0d5
+2022-09-23 13:06:01 ERROR CommonMethods - Not Sucessfully clicked on EnterOTPODC_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@data-tip="Please Enter OTP"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52786/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d08800b553801976f5c3698eb7ead0d5
+2022-09-23 13:06:01 ERROR CommonMethods - Data Not Sucessfully entered on EnterOTPODC_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-tip="Please Enter OTP"]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d08800b553801976f5c3698eb7ead0d5, findElement {using=xpath, value=//input[@data-tip="Please Enter OTP"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52786/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d08800b553801976f5c3698eb7ead0d5
+2022-09-23 16:30:27 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 16:30:27 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 16:30:43 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 16:30:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 16:30:47 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 16:30:49 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 16:30:50 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 16:30:50 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 16:30:52 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 16:30:53 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 16:30:55 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 16:31:17 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 16:31:51 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 16:31:54 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 16:32:18 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 16:32:24 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 16:32:29 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 16:32:49 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 16:32:51 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 16:32:54 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 16:32:57 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 16:33:12 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 16:33:14 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 16:34:04 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 16:34:04 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 16:34:19 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 16:34:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 16:34:24 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 16:34:25 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 16:34:26 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 16:34:26 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 16:34:28 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 16:34:29 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 16:34:32 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 16:34:53 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 16:35:06 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 16:35:10 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 16:35:18 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 16:35:24 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 16:35:29 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 16:35:51 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 16:35:53 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 16:35:56 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 16:35:58 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 16:36:07 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 16:36:09 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 16:36:32 ERROR CommonMethods - Not able to Mouseclick due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3eb2a9edf50607b9a19d1396965bafeb, findElement {using=xpath, value=//button[@id="c_76872278825"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54708}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54708/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3eb2a9edf50607b9a19d1396965bafeb
+2022-09-23 16:40:49 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 16:40:49 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 16:41:05 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 16:41:05 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 16:41:11 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 16:41:13 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 16:41:13 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 16:41:13 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 16:41:16 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 16:41:17 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 16:41:19 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 16:41:25 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 16:41:44 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 16:41:48 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 16:41:57 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 16:42:03 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 16:42:08 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 16:42:19 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 16:42:21 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 16:42:24 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 16:42:26 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 16:42:36 INFO  CommonMethods - Sucessfully clicked on EnterOTPODC_XPATH
+2022-09-23 16:42:38 INFO  CommonMethods - Data sucessfully entered on EnterOTPODC_XPATH = 123456
+2022-09-23 16:47:44 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 16:47:44 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 16:47:59 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 16:47:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 16:48:03 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 16:48:05 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 16:48:06 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 16:48:06 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 16:48:08 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 16:48:09 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 16:48:11 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 16:48:16 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 16:48:30 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 16:48:33 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 16:48:41 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 16:48:47 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 16:48:52 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 16:49:06 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 16:49:08 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 16:49:11 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 16:49:13 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 16:50:20 ERROR CommonMethods - Not Sucessfully clicked on EnterOTPODC_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@data-tip="Please Enter OTP"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55817/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fc263d9a5f9b842b878045264a11b33
+2022-09-23 16:50:20 ERROR CommonMethods - Data Not Sucessfully entered on EnterOTPODC_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-tip="Please Enter OTP"]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7fc263d9a5f9b842b878045264a11b33, findElement {using=xpath, value=//input[@data-tip="Please Enter OTP"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55817/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fc263d9a5f9b842b878045264a11b33
+2022-09-23 16:51:23 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id="c_76872278825"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55817/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fc263d9a5f9b842b878045264a11b33
+2022-09-23 16:53:09 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 16:53:09 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 16:53:24 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 16:53:24 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 16:53:28 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 16:53:30 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 16:53:31 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 16:53:31 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 16:53:34 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 16:53:35 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 16:53:37 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 16:53:42 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 16:53:54 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 16:53:56 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 16:54:04 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-09-23 16:54:10 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =102681930
+2022-09-23 16:54:15 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =11 | Data =00005197
+2022-09-23 16:54:31 INFO  CommonMethods - Sucessfully clicked on RegisteredMobileNoODC_XPATH
+2022-09-23 16:54:33 INFO  CommonMethods - Data sucessfully entered on RegisteredMobileNoODC_XPATH = 7016018020
+2022-09-23 16:54:36 INFO  CommonMethods - Sucessfully clicked on CRNODC_XPATH
+2022-09-23 16:54:38 INFO  CommonMethods - Data sucessfully entered on CRNODC_XPATH = 102678914
+2022-09-23 16:55:46 ERROR CommonMethods - Not Sucessfully clicked on EnterOTPODC_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@data-tip="Please Enter OTP"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56141/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c0a27c6a813e079adedf85ed7e6178f6
+2022-09-23 16:55:46 ERROR CommonMethods - Data Not Sucessfully entered on EnterOTPODC_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@data-tip="Please Enter OTP"]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0a27c6a813e079adedf85ed7e6178f6, findElement {using=xpath, value=//input[@data-tip="Please Enter OTP"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56141/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c0a27c6a813e079adedf85ed7e6178f6
+2022-09-23 16:55:53 ERROR CommonMethods - Not able to Mouseclick due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0a27c6a813e079adedf85ed7e6178f6, findElement {using=xpath, value=//button[@id="c_76872278825"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56141}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56141/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c0a27c6a813e079adedf85ed7e6178f6
+2022-09-23 17:13:07 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:13:07 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:13:21 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:13:21 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:13:26 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:13:27 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:13:28 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:13:28 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:13:30 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:13:31 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:13:33 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:13:40 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:13:53 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:13:56 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:14:05 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:14:07 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-23 17:14:14 ERROR SetUp - WCDLOffer Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"Fetch_Button_XPATH"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d490410440116960e4b673af13346c0, findElement {using=xpath, value=Fetch_Button_XPATH}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56910/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d490410440116960e4b673af13346c0
+2022-09-23 17:14:14 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 17:14:29 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 17:14:31 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 17:14:35 INFO  SetUp - Browser Closed..
+2022-09-23 17:19:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:19:50 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:20:04 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:20:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:20:09 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:20:10 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:20:11 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:20:11 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:20:13 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:20:14 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:20:16 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:20:23 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:20:36 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:20:38 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:20:48 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:20:50 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-23 17:21:00 ERROR SetUp - WCDLOffer Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"Fetch_Button_XPATH"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [603e8cdbf644630a55cd9a354911ce25, findElement {using=xpath, value=Fetch_Button_XPATH}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57186/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 603e8cdbf644630a55cd9a354911ce25
+2022-09-23 17:21:00 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 17:21:12 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 17:21:14 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 17:21:18 INFO  SetUp - Browser Closed..
+2022-09-23 17:22:34 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:22:34 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:22:47 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:22:47 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:22:52 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:22:53 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:22:54 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:22:54 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:22:56 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:22:57 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:22:59 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:23:04 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:23:16 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:23:19 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:23:29 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:23:31 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-23 17:23:43 ERROR SetUp - WCDLOffer Get Failed due to 
+no such element: Unable to locate element: {"method":"xpath","selector":"Fetch_Button_XPATH"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc9a5bc68dd30c5406014ee47e9ffba7, findElement {using=xpath, value=Fetch_Button_XPATH}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57350/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc9a5bc68dd30c5406014ee47e9ffba7
+2022-09-23 17:23:43 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 17:23:55 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 17:23:57 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 17:24:00 INFO  SetUp - Browser Closed..
+2022-09-23 17:27:42 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:27:42 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:27:56 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:27:56 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:28:00 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:28:02 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:28:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:28:02 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:28:04 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:28:05 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:28:07 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:28:14 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:28:26 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:28:28 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:28:41 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:28:43 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-23 17:28:58 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:29:00 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-23 17:29:13 ERROR SetUp - WCDLOffer Get Failed due to 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bb7005aa36e50209373de08857c05200, clearElement {id=08375b32-a4cd-42dd-8430-1ca651ab6b08}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57585/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bb7005aa36e50209373de08857c05200)] -> xpath: //input[@data-autoid='100000000_ctrl']]
+Session ID: bb7005aa36e50209373de08857c05200
+2022-09-23 17:29:14 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 17:29:26 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 17:29:27 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 17:29:31 INFO  SetUp - Browser Closed..
+2022-09-23 17:31:36 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:31:37 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:31:51 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:31:51 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:31:55 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:31:57 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:31:58 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:31:58 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:32:00 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:32:01 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:32:03 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:32:19 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:32:29 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:32:32 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:32:41 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:32:43 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-23 17:32:59 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:33:00 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-23 17:33:12 ERROR SetUp - WCDLOffer Get Failed due to 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [14f459145982ebb3876e5e828c267743, clearElement {id=41deb225-35a2-4d54-8b2d-fbacf1cc8717}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57789/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (14f459145982ebb3876e5e828c267743)] -> xpath: //input[@data-autoid='100000000_ctrl']]
+Session ID: 14f459145982ebb3876e5e828c267743
+2022-09-23 17:33:12 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 17:33:24 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 17:33:26 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 17:33:29 INFO  SetUp - Browser Closed..
+2022-09-23 17:35:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:35:52 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:36:06 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:36:06 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:36:10 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:36:14 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:36:15 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:36:15 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:36:18 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:36:19 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:36:21 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:36:35 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:36:45 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:36:48 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:36:58 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:36:59 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-23 17:37:15 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:37:17 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-23 17:37:28 ERROR SetUp - WCDLOffer Get Failed due to 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70cb33331451688aadc73dbd0dccc0c6, clearElement {id=f4e4d4d3-aee8-45dd-8800-73173d213ce4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58004/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (70cb33331451688aadc73dbd0dccc0c6)] -> xpath: //input[@data-autoid='100000000_ctrl']]
+Session ID: 70cb33331451688aadc73dbd0dccc0c6
+2022-09-23 17:37:29 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 17:37:41 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 17:37:43 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 17:37:46 INFO  SetUp - Browser Closed..
+2022-09-23 17:38:49 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:38:49 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:39:04 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:39:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:39:08 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:39:10 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:39:11 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:39:11 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:39:13 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:39:14 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:39:16 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:39:34 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:39:45 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:39:48 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:41:23 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:41:23 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:41:37 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:41:37 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:41:41 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:41:43 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:41:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:41:44 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:41:46 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:41:47 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:41:49 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:41:55 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:42:08 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:42:10 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:46:19 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:46:19 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:46:35 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:46:35 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:46:42 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:46:44 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:46:44 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:46:44 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:46:47 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:46:48 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:46:50 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:47:01 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:47:11 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:47:15 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:47:25 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:47:27 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-23 17:47:43 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:47:45 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-23 17:48:01 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-23 17:48:02 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005197
+2022-09-23 17:48:09 ERROR SetUp - WCDLOffer Get Failed due to 
+null
+2022-09-23 17:48:09 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 17:48:22 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 17:48:23 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 17:48:27 INFO  SetUp - Browser Closed..
+2022-09-23 17:51:14 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 17:51:14 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 17:51:28 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 17:51:28 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 17:51:33 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 17:51:35 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 17:51:36 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 17:51:36 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 17:51:38 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 17:51:39 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 17:51:41 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 17:51:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 17:51:57 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 17:52:00 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 17:52:12 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:52:18 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-09-23 17:52:34 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 17:52:36 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681930
+2022-09-23 17:52:52 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-23 17:52:54 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005197
+2022-09-23 17:53:00 ERROR SetUp - WCDLOffer Get Failed due to 
+null
+2022-09-23 17:53:00 INFO  ScreenShot - ScreenShot captured WCDLOffer || Status :Fail
+2022-09-23 17:53:14 INFO  CommonMethods - Row num for TestScenario = WCDLOffer is = 16
+2022-09-23 17:53:15 INFO  ExcelOperation - Write to excel with : Row=16 | Cell =3 | Data =Fail
+2022-09-23 17:53:19 INFO  SetUp - Browser Closed..
+2022-09-23 19:33:08 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 19:33:08 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 19:33:12 INFO  SetUp - Test Case_WCDLOffer_get Skipped as its Runmode is 'NO' 
+2022-09-23 19:33:12 INFO  SetUp - Test Case_WCDLOffer_Successfully Started
+2022-09-23 19:33:13 INFO  SetUp - Test Case_WCDLOffer_get Skipped as its Runmode is 'NO' 
+2022-09-23 19:45:02 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 19:45:02 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-23 19:45:06 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-23 19:45:06 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-23 19:45:09 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 19:45:09 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 19:45:12 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 19:45:12 ERROR SetUp - WCDLOffer_forSublimit Get Failed due to 
+null
+2022-09-23 19:45:13 INFO  ScreenShot - ScreenShot captured WCDLOffer_forSublimit || Status :Fail
+2022-09-23 19:45:14 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-23 19:45:15 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Fail
+2022-09-23 19:45:16 INFO  SetUp - Browser Closed..
+2022-09-23 19:52:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 19:52:50 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-23 19:52:54 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-23 19:52:54 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-23 19:52:56 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 19:52:56 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 19:53:00 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 19:53:00 ERROR SetUp - WCDLOffer_forSublimit Get Failed due to 
+null
+2022-09-23 19:53:00 INFO  ScreenShot - ScreenShot captured WCDLOffer_forSublimit || Status :Fail
+2022-09-23 19:53:01 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-23 19:53:02 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Fail
+2022-09-23 19:55:59 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 19:55:59 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-23 19:56:03 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-23 19:56:03 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-23 19:56:05 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 19:56:05 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 19:56:09 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 19:56:09 ERROR SetUp - WCDLOffer_forSublimit Get Failed due to 
+null
+2022-09-23 19:56:09 INFO  ScreenShot - ScreenShot captured WCDLOffer_forSublimit || Status :Fail
+2022-09-23 19:56:11 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-23 19:56:12 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Fail
+2022-09-23 19:56:13 INFO  SetUp - Browser Closed..
+2022-09-23 19:57:30 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 19:57:30 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-23 19:57:35 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-23 19:57:35 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-23 19:57:37 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 19:57:38 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 19:57:42 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 19:57:42 ERROR SetUp - WCDLOffer_forSublimit Get Failed due to 
+null
+2022-09-23 19:57:42 INFO  ScreenShot - ScreenShot captured WCDLOffer_forSublimit || Status :Fail
+2022-09-23 19:57:44 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-23 19:57:45 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Fail
+2022-09-23 19:57:47 INFO  SetUp - Browser Closed..
+2022-09-23 19:59:18 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 19:59:18 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-23 19:59:22 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-23 19:59:22 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-23 19:59:25 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 19:59:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 19:59:29 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 19:59:29 ERROR SetUp - WCDLOffer_forSublimit Get Failed due to 
+null
+2022-09-23 19:59:30 INFO  ScreenShot - ScreenShot captured WCDLOffer_forSublimit || Status :Fail
+2022-09-23 19:59:31 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-23 19:59:32 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Fail
+2022-09-23 19:59:36 INFO  SetUp - Browser Closed..
+2022-09-23 20:00:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 20:00:50 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-23 20:00:56 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 20:00:56 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 20:01:00 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 20:01:02 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 20:01:03 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 20:01:03 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 20:01:04 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 20:01:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 20:01:05 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 20:01:10 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 20:01:25 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 20:01:25 ERROR CommonMethods - Data Not Sucessfully entered on OfferIdInputODC_XPATH due to :null
+2022-09-23 20:01:34 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 20:01:34 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-23 20:01:49 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-23 20:01:50 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-23 20:10:22 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 20:10:22 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-23 20:10:27 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-23 20:10:27 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-23 20:10:29 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 20:10:29 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 20:10:34 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 20:10:35 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 20:10:36 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 20:10:36 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 20:10:36 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 20:10:37 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 20:10:37 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 20:10:41 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 20:11:43 ERROR CommonMethods - Not Sucessfully clicked on OfferIdInputODC_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="OF_ID"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60876/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 34144c9720741671f28170a35d08641a
+2022-09-23 20:11:43 ERROR CommonMethods - Data Not Sucessfully entered on OfferIdInputODC_XPATH due to :no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name="OF_ID"]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [34144c9720741671f28170a35d08641a, findElement {using=xpath, value=//input[@name="OF_ID"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60876/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 34144c9720741671f28170a35d08641a
+2022-09-23 20:12:23 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-23 20:12:23 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-23 20:12:28 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-23 20:12:28 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-23 20:12:31 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-23 20:12:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-23 20:12:35 INFO  SetUp - Chrome Browser Launched..
+2022-09-23 20:12:36 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-23 20:12:37 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-23 20:12:37 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-23 20:12:38 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-23 20:12:38 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-23 20:12:39 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-23 20:12:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-23 20:12:53 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-23 20:12:54 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5197
+2022-09-23 20:13:21 ERROR CommonMethods - Not Sucessfully clicked on CRN_text_Box_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9228ff6e4b533230451a73f79b43f9d, findElement {using=xpath, value=//input[@data-autoid='100000000_ctrl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60979/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9228ff6e4b533230451a73f79b43f9d
+2022-09-23 20:13:31 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9228ff6e4b533230451a73f79b43f9d, findElement {using=xpath, value=//input[@data-autoid='100000000_ctrl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60979/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9228ff6e4b533230451a73f79b43f9d
+2022-09-23 20:13:44 ERROR CommonMethods - Not able to Mouseclick due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9228ff6e4b533230451a73f79b43f9d, findElement {using=xpath, value=//a[@data-autoid='Fetch']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60979/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9228ff6e4b533230451a73f79b43f9d
+2022-09-23 20:13:58 ERROR CommonMethods - Not able to Mouseclick due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9228ff6e4b533230451a73f79b43f9d, findElement {using=xpath, value=//*[@id="object-action-button"]/div/a[1]/span[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60979}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60979/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d9228ff6e4b533230451a73f79b43f9d

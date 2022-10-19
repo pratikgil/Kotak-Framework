@@ -1,0 +1,247 @@
+2022-09-24 12:27:27 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 12:27:27 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 12:27:31 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 12:27:31 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 12:27:34 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 12:27:34 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 12:27:38 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 12:27:39 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 12:27:40 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 12:27:40 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 12:27:40 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 12:27:41 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 12:27:41 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 12:27:48 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 12:29:12 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 12:29:12 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 12:29:16 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 12:29:16 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 12:29:18 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 12:29:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 12:29:21 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 12:29:24 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 12:29:24 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 12:29:24 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 12:29:25 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 12:29:25 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 12:29:25 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 12:29:36 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 12:30:21 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-24 12:30:22 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5268
+2022-09-24 12:30:29 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 12:30:29 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 12:30:44 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 12:30:44 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 12:30:58 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-24 12:30:59 ERROR CommonMethods - Data Not Sucessfully entered on Offer_Id_text_Box_XPATH due to :null
+2022-09-24 12:31:04 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 12:31:06 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 12:31:06 INFO  ExampleLoginPage - Sucessfully logout..
+2022-09-24 12:31:06 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Passed
+2022-09-24 12:31:07 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-24 12:31:08 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Pass
+2022-09-24 12:31:10 INFO  SetUp - Browser Closed..
+2022-09-24 12:31:42 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 12:31:42 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 12:31:46 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 12:31:46 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 12:31:48 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 12:31:48 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 12:31:51 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 12:31:52 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 12:31:53 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 12:31:53 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 12:31:53 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 12:31:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 12:31:54 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 12:32:01 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 12:33:06 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 12:33:06 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 12:33:10 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 12:33:10 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 12:33:12 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 12:33:12 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 12:33:16 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 12:33:23 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 12:33:23 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 12:33:23 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 12:33:24 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 12:33:24 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 12:33:25 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 12:33:32 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 12:33:42 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-24 12:33:42 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5268
+2022-09-24 12:33:47 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 12:33:47 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 12:34:02 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 12:34:02 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 12:34:19 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-24 12:34:19 ERROR CommonMethods - Data Not Sucessfully entered on Offer_Id_text_Box_XPATH due to :null
+2022-09-24 12:34:25 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 12:34:26 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 12:34:26 INFO  ExampleLoginPage - Sucessfully logout..
+2022-09-24 12:34:26 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Passed
+2022-09-24 12:34:28 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-24 12:34:29 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Pass
+2022-09-24 12:34:30 INFO  SetUp - Browser Closed..
+2022-09-24 12:58:01 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 12:58:01 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 12:58:05 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 12:58:05 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 12:58:07 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 12:58:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 12:58:11 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 12:58:12 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 12:58:13 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 12:58:13 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 12:58:13 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 12:58:13 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 12:58:14 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 12:58:47 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 12:58:58 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-24 12:58:58 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5268
+2022-09-24 12:59:08 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 12:59:09 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 12:59:23 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 12:59:23 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 12:59:38 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-24 12:59:38 ERROR CommonMethods - Data Not Sucessfully entered on Offer_Id_text_Box_XPATH due to :null
+2022-09-24 12:59:44 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 12:59:45 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 12:59:45 INFO  ExampleLoginPage - Sucessfully logout..
+2022-09-24 12:59:45 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Passed
+2022-09-24 12:59:48 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-24 12:59:49 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Pass
+2022-09-24 12:59:51 INFO  SetUp - Browser Closed..
+2022-09-24 13:24:01 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 13:24:01 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 13:24:04 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 13:24:04 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 13:24:06 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 13:24:06 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 13:24:10 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 13:24:11 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 13:24:12 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 13:24:12 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 13:24:12 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 13:24:12 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 13:24:13 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 13:24:21 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 13:24:31 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-24 13:24:31 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5268
+2022-09-24 13:24:35 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 13:24:35 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 13:24:51 ERROR CommonMethods - Not Sucessfully clicked on CRN_text_Box_XPATH due to :element click intercepted: Element <input type="text" name="100000000" class="textbox field__item" maxlength="64" data-autoid="100000000_ctrl" value=""> is not clickable at point (438, 285). Other element would receive the click: <div class="ui-dialog-content card-scroll custom--filters ddddddd has-buttons">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [acb3a6bbd410b8a9754f68fee7164724, clickElement {id=5a8f95ef-4b31-49bf-b45c-4dcb73e10349}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63320}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63320/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (acb3a6bbd410b8a9754f68fee7164724)] -> xpath: //input[@data-autoid='100000000_ctrl']]
+Session ID: acb3a6bbd410b8a9754f68fee7164724
+2022-09-24 13:24:51 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 13:25:06 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-24 13:25:06 ERROR CommonMethods - Data Not Sucessfully entered on Offer_Id_text_Box_XPATH due to :null
+2022-09-24 13:25:11 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 13:25:12 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 13:25:12 INFO  ExampleLoginPage - Sucessfully logout..
+2022-09-24 13:25:12 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Passed
+2022-09-24 13:25:14 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-24 13:25:15 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Pass
+2022-09-24 13:25:17 INFO  SetUp - Browser Closed..
+2022-09-24 13:54:25 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 13:54:25 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 13:54:29 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 13:54:29 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 13:54:32 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 13:54:32 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 13:54:36 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 13:54:37 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 13:54:37 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 13:54:38 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 13:54:38 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 13:54:38 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 13:54:39 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 13:54:48 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 13:54:58 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-24 13:54:59 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5268
+2022-09-24 13:55:04 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 13:55:04 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 13:55:19 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 13:55:19 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 13:55:34 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-24 13:55:34 ERROR CommonMethods - Data Not Sucessfully entered on Offer_Id_text_Box_XPATH due to :null
+2022-09-24 13:55:40 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 13:55:41 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 13:55:41 INFO  ExampleLoginPage - Sucessfully logout..
+2022-09-24 13:55:41 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Passed
+2022-09-24 13:55:43 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-24 13:55:44 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Pass
+2022-09-24 13:55:45 INFO  SetUp - Browser Closed..
+2022-09-24 14:01:12 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 14:01:13 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 14:01:16 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 14:01:16 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 14:01:18 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 14:01:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 14:01:22 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 14:01:23 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 14:01:24 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 14:01:24 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 14:01:24 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 14:01:24 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 14:01:25 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 14:01:29 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 14:01:39 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-24 14:01:39 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5268
+2022-09-24 14:01:54 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 14:01:54 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null
+2022-09-24 14:02:09 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 14:02:10 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 911102503
+2022-09-24 14:02:25 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-09-24 14:02:25 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005268
+2022-09-24 14:02:34 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102681952
+2022-09-24 14:02:34 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 14:02:34 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 14:02:34 INFO  ExampleLoginPage - Sucessfully logout..
+2022-09-24 14:02:34 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Passed
+2022-09-24 14:02:36 INFO  CommonMethods - Row num for TestScenario = WCDLOffer_forSublimit is = 17
+2022-09-24 14:02:37 INFO  ExcelOperation - Write to excel with : Row=17 | Cell =3 | Data =Pass
+2022-09-24 14:02:39 INFO  SetUp - Browser Closed..
+2022-09-24 14:05:17 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 14:05:17 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_Successfully Started
+2022-09-24 14:05:21 INFO  SetUp - Test Case_WCDLOffer_forAdhoc_get Skipped as its Runmode is 'NO' 
+2022-09-24 14:05:21 INFO  SetUp - Test Case_WCDLOffer_forSublimit_Successfully Started
+2022-09-24 14:05:23 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 14:05:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 14:05:27 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 14:05:28 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-09-24 14:05:29 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 14:05:29 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 14:05:29 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-09-24 14:05:29 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 14:05:30 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 14:05:52 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 14:06:04 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-09-24 14:06:05 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5268
+2022-09-24 14:07:34 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-09-24 14:09:59 ERROR CommonMethods - Data Not Sucessfully entered on CRN_text_Box_XPATH due to :null

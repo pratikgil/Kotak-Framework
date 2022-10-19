@@ -1,0 +1,114 @@
+2022-08-23 13:08:32 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 13:08:32 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-23 13:08:33 INFO  SetUp - Test Case_NTBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:33 INFO  SetUp - Test Case_ETBLeadJourney_Successfully Started
+2022-08-23 13:08:33 INFO  SetUp - Test Case_ETBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:33 INFO  SetUp - Test Case_CreateTaskOnLead_Successfully Started
+2022-08-23 13:08:33 INFO  SetUp - Test Case_CreateTaskOnLead_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:33 INFO  SetUp - Test Case_CreateAppointmentOnLead_Successfully Started
+2022-08-23 13:08:33 INFO  SetUp - Test Case_CreateAppointmentOnLead_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:33 INFO  SetUp - Test Case_MandatoryRuleAlert_Successfully Started
+2022-08-23 13:08:33 INFO  SetUp - Test Case_MandatoryRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:33 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-08-23 13:08:34 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:34 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-08-23 13:08:34 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:34 INFO  SetUp - Test Case_NTBLeadJourneyForCar_Successfully Started
+2022-08-23 13:08:34 INFO  SetUp - Test Case_NTBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:34 INFO  SetUp - Test Case_ETBLeadJourneyForCar_Successfully Started
+2022-08-23 13:08:34 INFO  SetUp - Test Case_ETBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:08:34 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_Successfully Started
+2022-08-23 13:08:44 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 13:08:44 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 13:08:47 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 13:08:47 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-23 13:08:47 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 13:08:47 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-23 13:08:48 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 13:08:48 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 13:08:50 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-23 13:09:19 INFO  CommonMethods - Sucessfully clicked on Firstname_XPATH
+2022-08-23 13:09:19 INFO  CommonMethods - Data sucessfully entered on Firstname_XPATH = tranit
+2022-08-23 13:09:19 INFO  CommonMethods - Sucessfully clicked on Lastname_XPATH
+2022-08-23 13:09:19 INFO  CommonMethods - Data sucessfully entered on Lastname_XPATH = nai
+2022-08-23 13:09:19 INFO  CommonMethods - Sucessfully clicked on MobNo_XPATH
+2022-08-23 13:09:19 INFO  CommonMethods - Data sucessfully entered on MobNo_XPATH = 9078564567
+2022-08-23 13:09:22 ERROR CommonMethods - Not able to select from dropdown Product_XPATHdue to Cannot locate option with text: Cash Credit
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: driver.version: unknown
+2022-08-23 13:13:14 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-23 13:13:14 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-23 13:13:14 INFO  SetUp - Test Case_NTBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:14 INFO  SetUp - Test Case_ETBLeadJourney_Successfully Started
+2022-08-23 13:13:15 INFO  SetUp - Test Case_ETBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:15 INFO  SetUp - Test Case_CreateTaskOnLead_Successfully Started
+2022-08-23 13:13:15 INFO  SetUp - Test Case_CreateTaskOnLead_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:15 INFO  SetUp - Test Case_CreateAppointmentOnLead_Successfully Started
+2022-08-23 13:13:15 INFO  SetUp - Test Case_CreateAppointmentOnLead_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:15 INFO  SetUp - Test Case_MandatoryRuleAlert_Successfully Started
+2022-08-23 13:13:15 INFO  SetUp - Test Case_MandatoryRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:15 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-08-23 13:13:15 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:15 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-08-23 13:13:16 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:16 INFO  SetUp - Test Case_NTBLeadJourneyForCar_Successfully Started
+2022-08-23 13:13:16 INFO  SetUp - Test Case_NTBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:16 INFO  SetUp - Test Case_ETBLeadJourneyForCar_Successfully Started
+2022-08-23 13:13:16 INFO  SetUp - Test Case_ETBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-08-23 13:13:16 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_Successfully Started
+2022-08-23 13:13:17 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-23 13:13:17 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-23 13:13:18 INFO  SetUp - Chrome Browser Launched..
+2022-08-23 13:13:19 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-23 13:13:19 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-23 13:13:19 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-23 13:13:20 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-23 13:13:20 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-23 13:13:22 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-23 13:13:31 INFO  CommonMethods - Sucessfully clicked on Firstname_XPATH
+2022-08-23 13:13:31 INFO  CommonMethods - Data sucessfully entered on Firstname_XPATH = tranit
+2022-08-23 13:13:31 INFO  CommonMethods - Sucessfully clicked on Lastname_XPATH
+2022-08-23 13:13:31 INFO  CommonMethods - Data sucessfully entered on Lastname_XPATH = nai
+2022-08-23 13:13:32 INFO  CommonMethods - Sucessfully clicked on MobNo_XPATH
+2022-08-23 13:13:32 INFO  CommonMethods - Data sucessfully entered on MobNo_XPATH = 9078564567
+2022-08-23 13:13:34 INFO  CommonMethods - Data = Trading Sucessfully Selected from dropdown Product_XPATH
+2022-08-23 13:15:36 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-cardview f20 white"]               (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05df4fc26d4d2670c238f2eb3506949f
+2022-08-23 13:17:38 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //span[@title="Activities"] (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05df4fc26d4d2670c238f2eb3506949f
+2022-08-23 13:19:39 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="newobject"]/div[1]/div/div/div/div/div[2]/div/div[1]/div/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div/a[2]/span   (tried for 120 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05df4fc26d4d2670c238f2eb3506949f
+2022-08-23 13:21:34 ERROR CommonMethods - Not able to Mouseclick due to chrome not reachable
+  (Session info: chrome=104.0.5112.82)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05df4fc26d4d2670c238f2eb3506949f, findElement {using=xpath, value=//input[@name="ACT_SUBJECT"]	}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05df4fc26d4d2670c238f2eb3506949f
+2022-08-23 13:21:44 ERROR CommonMethods - Not Sucessfully clicked on Subject_XPATH due to :chrome not reachable
+  (Session info: chrome=104.0.5112.82)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05df4fc26d4d2670c238f2eb3506949f, findElement {using=xpath, value=//input[@name="ACT_SUBJECT"]	}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49728/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 05df4fc26d4d2670c238f2eb3506949f

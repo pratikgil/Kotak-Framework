@@ -1,0 +1,98 @@
+2022-09-08 18:59:38 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-08 18:59:38 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-09-08 18:59:40 INFO  SetUp - Test Case_NTBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:40 INFO  SetUp - Test Case_ETBLeadJourney_Successfully Started
+2022-09-08 18:59:41 INFO  SetUp - Test Case_ETBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:41 INFO  SetUp - Test Case_CreateTaskOnLead_Successfully Started
+2022-09-08 18:59:41 INFO  SetUp - Test Case_CreateTaskOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:42 INFO  SetUp - Test Case_CreateAppointmentOnLead_Successfully Started
+2022-09-08 18:59:42 INFO  SetUp - Test Case_CreateAppointmentOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:42 INFO  SetUp - Test Case_MandatoryRuleAlert_Successfully Started
+2022-09-08 18:59:43 INFO  SetUp - Test Case_MandatoryRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:43 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-09-08 18:59:43 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:43 INFO  SetUp - Test Case_DedupeRuleAlert_Successfully Started
+2022-09-08 18:59:44 INFO  SetUp - Test Case_DedupeRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:44 INFO  SetUp - Test Case_NTBLeadJourneyForCar_Successfully Started
+2022-09-08 18:59:44 INFO  SetUp - Test Case_NTBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:44 INFO  SetUp - Test Case_ETBLeadJourneyForCar_Successfully Started
+2022-09-08 18:59:45 INFO  SetUp - Test Case_ETBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:45 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_Successfully Started
+2022-09-08 18:59:46 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:46 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_Successfully Started
+2022-09-08 18:59:47 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:47 INFO  SetUp - Test Case_MandatoryAlertOfCar_Successfully Started
+2022-09-08 18:59:48 INFO  SetUp - Test Case_MandatoryAlertOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 18:59:48 INFO  SetUp - Test Case_ValidationAlertOnCar_Successfully Started
+2022-09-08 18:59:59 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-08 18:59:59 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-08 19:00:03 INFO  SetUp - Chrome Browser Launched..
+2022-09-08 19:00:04 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login
+2022-09-08 19:00:30 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-08 19:00:30 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-09-08 19:00:31 INFO  SetUp - Test Case_NTBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:31 INFO  SetUp - Test Case_ETBLeadJourney_Successfully Started
+2022-09-08 19:00:32 INFO  SetUp - Test Case_ETBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:32 INFO  SetUp - Test Case_CreateTaskOnLead_Successfully Started
+2022-09-08 19:00:33 INFO  SetUp - Test Case_CreateTaskOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:33 INFO  SetUp - Test Case_CreateAppointmentOnLead_Successfully Started
+2022-09-08 19:00:33 INFO  SetUp - Test Case_CreateAppointmentOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:33 INFO  SetUp - Test Case_MandatoryRuleAlert_Successfully Started
+2022-09-08 19:00:34 INFO  SetUp - Test Case_MandatoryRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:34 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-09-08 19:00:35 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:35 INFO  SetUp - Test Case_DedupeRuleAlert_Successfully Started
+2022-09-08 19:00:35 INFO  SetUp - Test Case_DedupeRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:35 INFO  SetUp - Test Case_NTBLeadJourneyForCar_Successfully Started
+2022-09-08 19:00:36 INFO  SetUp - Test Case_NTBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:36 INFO  SetUp - Test Case_ETBLeadJourneyForCar_Successfully Started
+2022-09-08 19:00:36 INFO  SetUp - Test Case_ETBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:36 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_Successfully Started
+2022-09-08 19:00:37 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:37 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_Successfully Started
+2022-09-08 19:00:38 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:38 INFO  SetUp - Test Case_MandatoryAlertOfCar_Successfully Started
+2022-09-08 19:00:38 INFO  SetUp - Test Case_MandatoryAlertOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:38 INFO  SetUp - Test Case_ValidationAlertOnCar_Successfully Started
+2022-09-08 19:00:39 INFO  SetUp - Test Case_ValidationAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:39 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_Successfully Started
+2022-09-08 19:00:40 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:00:40 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-09-08 19:00:41 INFO  SetUp - Test Case_NTBAssistedJourney_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:47 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-08 19:07:47 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-09-08 19:07:49 INFO  SetUp - Test Case_NTBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:49 INFO  SetUp - Test Case_ETBLeadJourney_Successfully Started
+2022-09-08 19:07:50 INFO  SetUp - Test Case_ETBLeadJourney_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:50 INFO  SetUp - Test Case_CreateTaskOnLead_Successfully Started
+2022-09-08 19:07:50 INFO  SetUp - Test Case_CreateTaskOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:50 INFO  SetUp - Test Case_CreateAppointmentOnLead_Successfully Started
+2022-09-08 19:07:51 INFO  SetUp - Test Case_CreateAppointmentOnLead_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:51 INFO  SetUp - Test Case_MandatoryRuleAlert_Successfully Started
+2022-09-08 19:07:51 INFO  SetUp - Test Case_MandatoryRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:51 INFO  SetUp - Test Case_ValidationRuleAlert_Successfully Started
+2022-09-08 19:07:52 INFO  SetUp - Test Case_ValidationRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:52 INFO  SetUp - Test Case_DedupeRuleAlert_Successfully Started
+2022-09-08 19:07:52 INFO  SetUp - Test Case_DedupeRuleAlert_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:52 INFO  SetUp - Test Case_NTBLeadJourneyForCar_Successfully Started
+2022-09-08 19:07:53 INFO  SetUp - Test Case_NTBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:53 INFO  SetUp - Test Case_ETBLeadJourneyForCar_Successfully Started
+2022-09-08 19:07:54 INFO  SetUp - Test Case_ETBLeadJourneyForCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:54 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_Successfully Started
+2022-09-08 19:07:54 INFO  SetUp - Test Case_CreateTaskOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:54 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_Successfully Started
+2022-09-08 19:07:55 INFO  SetUp - Test Case_CreateAppointmentOnLeadOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:55 INFO  SetUp - Test Case_MandatoryAlertOfCar_Successfully Started
+2022-09-08 19:07:56 INFO  SetUp - Test Case_MandatoryAlertOfCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:56 INFO  SetUp - Test Case_ValidationAlertOnCar_Successfully Started
+2022-09-08 19:07:57 INFO  SetUp - Test Case_ValidationAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:57 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_Successfully Started
+2022-09-08 19:07:57 INFO  SetUp - Test Case_DedupeRuleAlertOnCar_get Skipped as its Runmode is 'NO' 
+2022-09-08 19:07:57 INFO  SetUp - Test Case_NTBAssistedJourney_Successfully Started
+2022-09-08 19:07:58 INFO  SetUp - Test Case_NTBAssistedJourney_get Skipped as its Runmode is 'NO' 

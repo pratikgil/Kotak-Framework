@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationTest">
+
+	<listeners>
+		<listener class-name="com.crm.listeners.TestListeners" />
+	</listeners>
+ 
+  <!-- Add Test to run -->
+  
+  <test name="Test To Verify CRM Login">
+    <classes>
+    <!--    <class name="com.crm.testCases.Tc01NTB"/>
+      <class name="com.crm.testCases.Tc02ETB"/>
+      <class name="com.crm.testCases.Tc03CreateTaskOnLead"/>
+      <class name="com.crm.testCases.Tc04CreateAppointmentOnLead"/>
+      <class name="com.crm.testCases.Tc05MandatoryRuleAlert"/>
+      <class name="com.crm.testCases.Tc06ValidationRuleAlert"/>
+      <class name="com.crm.testCases.Tc07DedupeRuleAlert"/>
+      <class name="com.crm.testCases.Tc08NTBCar"/>
+       <class name="com.crm.testCases.Tc09ETBCar"/>
+       <class name="com.crm.testCases.Tc09ETBCar"/>
+       <class name="com.crm.testCases.Tc10CreateTaskOnLeadOfCar"/>
+       <class name="com.crm.testCases.Tc11CreateAppointmentOnLeadOfCar"/>
+       <class name="com.crm.testCases.Tc12MandatoryRuleAlertOfCar"/>
+       <class name="com.crm.testCases.Tc13ValidationRuleAlertOfCar"/>
+       <class name="com.crm.testCases.Tc14DedupeRuleAlertOfCar"/>         -->
+        <class name="com.crm.testCases.Tc15NTBAssistedWithoutDocReq"/>              
+        <class name="com.crm.testCases.TC16WCDLOffer_ADHOC"/>
+         <class name="com.crm.testCases.TC17WCDLOffer_Sublimit"/>
+        <class name="com.crm.testCases.TC18WCDLOffer_Renewal"/>        
+        <class name="com.crm.testCases.TC19OD_PL_PA"/>               
+         <class name="com.crm.testCases.Tc20NTBAssistedDocReq"/>
+        
+        
+        
+       
+       
+       
+      
+      
+     
+      
+    </classes>
+  </test> 
+  
+  <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

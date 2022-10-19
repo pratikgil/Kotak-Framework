@@ -1,0 +1,413 @@
+2022-08-16 10:59:03 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 10:59:03 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 10:59:14 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 10:59:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 10:59:18 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 10:59:22 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 10:59:23 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 10:59:24 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 10:59:26 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 10:59:28 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 10:59:33 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 11:00:33 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-obj6"]	                                                  //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50161/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b1e9b931713fe160f4149d981052aa6
+2022-08-16 11:00:33 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 11:00:35 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 11:00:37 ERROR CommonMethods - Not Sucessfully clicked on Firstname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 11:00:39 INFO  CommonMethods - Data sucessfully entered on Firstname_Xpath = Pranit
+2022-08-16 11:00:39 ERROR CommonMethods - Not Sucessfully clicked on Lastname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 11:00:40 INFO  CommonMethods - Data sucessfully entered on Lastname_Xpath = mai
+2022-08-16 11:00:41 ERROR CommonMethods - Not Sucessfully clicked on MobNo_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 11:00:41 INFO  CommonMethods - Data sucessfully entered on MobNo_Xpath = 9078564567
+2022-08-16 11:00:44 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 11:00:44 ERROR SetUp - NTBLeadJourney Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-08-16 11:00:44 INFO  ScreenShot - ScreenShot captured NTBLeadJourney || Status :Fail
+2022-08-16 11:00:45 INFO  CommonMethods - Row num for TestScenario = NTBLeadJourney is = 1
+2022-08-16 11:00:47 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 11:00:51 INFO  SetUp - Browser Closed..
+2022-08-16 12:30:19 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 12:30:19 INFO  SetUp - Test Case_nTBLeadJourney_Successfully Started
+2022-08-16 12:30:23 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 12:30:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 12:30:25 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 12:30:27 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 12:30:27 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 12:30:28 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 12:30:29 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 12:30:30 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 12:30:33 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 12:31:24 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 12:31:24 INFO  SetUp - Test Case_nTBLeadJourney_Successfully Started
+2022-08-16 12:31:24 ERROR CommonMethods - Not able to Mouseclick due to chrome not reachable
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87f9c75b2d59f05d8c5b71cf986f87a3, findElement {using=xpath, value=//i[@class="icon icon-obj6"]	                                                  //click on lead}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52707/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87f9c75b2d59f05d8c5b71cf986f87a3
+2022-08-16 12:31:24 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:31:26 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:31:26 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 12:31:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 12:31:28 ERROR CommonMethods - Not Sucessfully clicked on Firstname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:31:29 INFO  CommonMethods - Data sucessfully entered on Firstname_Xpath = Pranit
+2022-08-16 12:31:29 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 12:31:30 ERROR CommonMethods - Not Sucessfully clicked on Lastname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:31:30 INFO  CommonMethods - Data sucessfully entered on Lastname_Xpath = mai
+2022-08-16 12:31:31 ERROR CommonMethods - Not Sucessfully clicked on MobNo_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:31:31 INFO  CommonMethods - Data sucessfully entered on MobNo_Xpath = 9078564567
+2022-08-16 12:31:32 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 12:31:32 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 12:31:33 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 12:31:33 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:31:33 ERROR SetUp - nTBLeadJourney Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-08-16 12:31:33 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 12:31:35 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 12:31:38 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 12:31:44 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=104.0.5112.81)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87f9c75b2d59f05d8c5b71cf986f87a3, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52707/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87f9c75b2d59f05d8c5b71cf986f87a3
+2022-08-16 12:31:44 INFO  CommonMethods - Row num for TestScenario = nTBLeadJourney is = 1
+2022-08-16 12:31:46 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 12:32:38 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-obj6"]	                                                  //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52788}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52788/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 194d586bedeea727d07318d323487368
+2022-08-16 12:32:38 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:32:40 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:32:42 ERROR CommonMethods - Not Sucessfully clicked on Firstname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:32:43 INFO  CommonMethods - Data sucessfully entered on Firstname_Xpath = Pranit
+2022-08-16 12:32:43 ERROR CommonMethods - Not Sucessfully clicked on Lastname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:32:43 INFO  CommonMethods - Data sucessfully entered on Lastname_Xpath = mai
+2022-08-16 12:32:44 ERROR CommonMethods - Not Sucessfully clicked on MobNo_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:32:44 INFO  CommonMethods - Data sucessfully entered on MobNo_Xpath = 9078564567
+2022-08-16 12:32:46 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:32:46 ERROR SetUp - nTBLeadJourney Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-08-16 12:32:46 INFO  ScreenShot - ScreenShot captured nTBLeadJourney || Status :Fail
+2022-08-16 12:32:47 INFO  CommonMethods - Row num for TestScenario = nTBLeadJourney is = 1
+2022-08-16 12:32:48 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 12:32:51 INFO  SetUp - Browser Closed..
+2022-08-16 12:34:13 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 12:34:13 INFO  SetUp - Test Case_nTBLeadJourney_Successfully Started
+2022-08-16 12:34:16 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 12:34:16 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 12:34:18 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 12:34:19 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 12:34:20 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 12:34:21 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 12:34:21 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 12:34:22 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 12:34:25 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 12:35:25 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-obj6"]	                                                  //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52936}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52936/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48638c9fcfa5022239e7bb6de4650561
+2022-08-16 12:35:25 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:35:27 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:35:29 ERROR CommonMethods - Not Sucessfully clicked on Firstname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:35:30 INFO  CommonMethods - Data sucessfully entered on Firstname_Xpath = Pranit
+2022-08-16 12:35:30 ERROR CommonMethods - Not Sucessfully clicked on Lastname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:35:30 INFO  CommonMethods - Data sucessfully entered on Lastname_Xpath = mai
+2022-08-16 12:35:30 ERROR CommonMethods - Not Sucessfully clicked on MobNo_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:35:31 INFO  CommonMethods - Data sucessfully entered on MobNo_Xpath = 9078564567
+2022-08-16 12:35:33 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:35:33 ERROR SetUp - nTBLeadJourney Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-08-16 12:35:33 INFO  ScreenShot - ScreenShot captured nTBLeadJourney || Status :Fail
+2022-08-16 12:35:34 INFO  CommonMethods - Row num for TestScenario = nTBLeadJourney is = 1
+2022-08-16 12:35:35 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 12:35:38 INFO  SetUp - Browser Closed..
+2022-08-16 12:39:03 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 12:39:03 INFO  SetUp - Test Case_nTBLeadJourney_Successfully Started
+2022-08-16 12:39:06 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 12:39:06 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 12:39:08 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 12:39:09 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 12:39:10 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 12:39:11 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 12:39:11 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 12:39:12 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 12:39:15 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 12:40:16 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-obj6"]	                                                  //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53074/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 550a542810f88aa2a69ee461f2c975df
+2022-08-16 12:40:16 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:40:18 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:40:20 ERROR CommonMethods - Not Sucessfully clicked on Firstname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:40:20 INFO  CommonMethods - Data sucessfully entered on Firstname_Xpath = Pranit
+2022-08-16 12:40:20 ERROR CommonMethods - Not Sucessfully clicked on Lastname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:40:21 INFO  CommonMethods - Data sucessfully entered on Lastname_Xpath = mai
+2022-08-16 12:40:21 ERROR CommonMethods - Not Sucessfully clicked on MobNo_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:40:21 INFO  CommonMethods - Data sucessfully entered on MobNo_Xpath = 9078564567
+2022-08-16 12:40:24 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:40:24 ERROR SetUp - nTBLeadJourney Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-08-16 12:40:24 INFO  ScreenShot - ScreenShot captured nTBLeadJourney || Status :Fail
+2022-08-16 12:40:24 INFO  CommonMethods - Row num for TestScenario = nTBLeadJourney is = 1
+2022-08-16 12:40:25 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 12:40:29 INFO  SetUp - Browser Closed..
+2022-08-16 12:42:59 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 12:42:59 INFO  SetUp - Test Case_nTBLeadJourney_Successfully Started
+2022-08-16 12:43:01 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 12:43:01 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 12:43:04 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 12:43:05 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 12:43:05 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 12:43:06 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 12:43:07 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 12:43:07 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 12:43:11 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 12:44:13 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-obj6"]	                                                  //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53204}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53204/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c3babae81d97f1219ea6f2be71debd1
+2022-08-16 12:44:13 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:44:15 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:44:17 ERROR CommonMethods - Not Sucessfully clicked on Firstname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:44:17 INFO  CommonMethods - Data sucessfully entered on Firstname_Xpath = Pranit
+2022-08-16 12:44:18 ERROR CommonMethods - Not Sucessfully clicked on Lastname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:44:18 INFO  CommonMethods - Data sucessfully entered on Lastname_Xpath = mai
+2022-08-16 12:44:18 ERROR CommonMethods - Not Sucessfully clicked on MobNo_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 12:44:19 INFO  CommonMethods - Data sucessfully entered on MobNo_Xpath = 9078564567
+2022-08-16 12:44:21 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 12:44:21 ERROR SetUp - nTBLeadJourney Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-08-16 12:44:21 INFO  ScreenShot - ScreenShot captured nTBLeadJourney || Status :Fail
+2022-08-16 12:44:22 INFO  CommonMethods - Row num for TestScenario = nTBLeadJourney is = 1
+2022-08-16 12:44:23 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 12:44:26 INFO  SetUp - Browser Closed..
+2022-08-16 15:05:27 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 15:05:27 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 15:05:34 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 15:05:34 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 15:05:40 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 15:05:42 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 15:05:43 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 15:05:44 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 15:05:45 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 15:05:48 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 15:05:54 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 15:06:57 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-obj6"]	                                                  //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55210/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b864abfd5ace711e80114fbeb6a7c0e
+2022-08-16 15:06:57 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 15:06:59 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 15:07:01 ERROR CommonMethods - Not Sucessfully clicked on Firstname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 15:07:02 INFO  CommonMethods - Data sucessfully entered on Firstname_Xpath = Pranit
+2022-08-16 15:07:03 ERROR CommonMethods - Not Sucessfully clicked on Lastname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 15:07:03 INFO  CommonMethods - Data sucessfully entered on Lastname_Xpath = mai
+2022-08-16 15:07:04 ERROR CommonMethods - Not Sucessfully clicked on MobNo_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 15:07:05 INFO  CommonMethods - Data sucessfully entered on MobNo_Xpath = 9078564567
+2022-08-16 15:07:07 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 15:07:07 ERROR SetUp - NTBLeadJourney Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-08-16 15:07:07 INFO  ScreenShot - ScreenShot captured NTBLeadJourney || Status :Fail
+2022-08-16 15:07:08 INFO  CommonMethods - Row num for TestScenario = NTBLeadJourney is = 1
+2022-08-16 15:07:10 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 15:07:12 INFO  SetUp - Browser Closed..
+2022-08-16 15:09:45 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 15:09:45 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 15:09:49 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 15:09:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 15:09:54 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 15:09:56 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 15:09:56 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 15:09:58 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 15:09:59 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 15:10:01 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 15:10:21 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 15:22:43 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 15:22:43 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 15:22:47 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 15:22:47 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 15:22:52 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 15:22:54 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 15:22:55 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 15:22:57 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 15:22:58 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 15:23:00 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 15:23:05 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 15:24:07 ERROR SetUp - NTBLeadJourney Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon icon-obj6']                                                //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56057/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce3a159c8b0649b99987b8d70461a0b0
+2022-08-16 15:24:07 INFO  ScreenShot - ScreenShot captured NTBLeadJourney || Status :Fail
+2022-08-16 15:24:09 INFO  CommonMethods - Row num for TestScenario = NTBLeadJourney is = 1
+2022-08-16 15:24:10 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 15:24:12 INFO  SetUp - Browser Closed..
+2022-08-16 15:26:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 15:26:21 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 15:26:25 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 15:26:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 15:26:30 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 15:26:32 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 15:26:32 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 15:26:34 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 15:26:35 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 15:26:37 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 15:26:42 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 15:27:44 ERROR SetUp - NTBLeadJourney Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon icon-obj6']                                                //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56240}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56240/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a9c82b52f01db922cec461445e17850
+2022-08-16 15:27:44 INFO  ScreenShot - ScreenShot captured NTBLeadJourney || Status :Fail
+2022-08-16 15:27:46 INFO  CommonMethods - Row num for TestScenario = NTBLeadJourney is = 1
+2022-08-16 15:27:47 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 15:27:49 INFO  SetUp - Browser Closed..
+2022-08-16 15:37:27 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 15:37:27 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 15:37:31 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 15:37:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 15:37:36 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 15:37:37 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 15:37:38 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 15:37:39 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 15:37:40 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 15:37:42 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 15:37:46 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 15:38:48 ERROR SetUp - NTBLeadJourney Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon icon-obj6']                                                //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56698}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56698/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b76f12ddd6118e201135af99116289b6
+2022-08-16 15:38:49 INFO  ScreenShot - ScreenShot captured NTBLeadJourney || Status :Fail
+2022-08-16 15:38:50 INFO  CommonMethods - Row num for TestScenario = NTBLeadJourney is = 1
+2022-08-16 15:38:52 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 15:38:53 INFO  SetUp - Browser Closed..
+2022-08-16 15:47:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 15:47:53 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 15:47:57 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 15:47:57 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 15:48:01 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 15:48:03 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 15:48:04 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 15:48:05 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 15:48:06 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 15:48:08 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 15:48:13 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 15:49:15 ERROR CommonMethods - Not able to Mouseclick due to Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon icon-obj6']                                                //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57231/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 017830f79b81a4e226c7eeb050d733c1
+2022-08-16 15:49:15 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 15:49:17 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 15:49:19 ERROR CommonMethods - Not Sucessfully clicked on Firstname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 15:49:20 INFO  CommonMethods - Data sucessfully entered on Firstname_Xpath = Pranit
+2022-08-16 15:49:21 ERROR CommonMethods - Not Sucessfully clicked on Lastname_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 15:49:21 INFO  CommonMethods - Data sucessfully entered on Lastname_Xpath = mai
+2022-08-16 15:49:22 ERROR CommonMethods - Not Sucessfully clicked on MobNo_Xpath due to :Cannot find elements when the XPath is null.
+2022-08-16 15:49:22 INFO  CommonMethods - Data sucessfully entered on MobNo_Xpath = 9078564567
+2022-08-16 15:49:25 ERROR CommonMethods - Not able to Mouseclick due to Cannot find elements when the XPath is null.
+2022-08-16 15:49:25 ERROR SetUp - NTBLeadJourney Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-08-16 15:49:25 INFO  ScreenShot - ScreenShot captured NTBLeadJourney || Status :Fail
+2022-08-16 15:49:26 INFO  CommonMethods - Row num for TestScenario = NTBLeadJourney is = 1
+2022-08-16 15:49:27 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 15:49:29 INFO  SetUp - Browser Closed..
+2022-08-16 15:58:07 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 15:58:07 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 15:58:11 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 15:58:11 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 15:58:15 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 15:58:17 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 15:58:17 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 15:58:19 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 15:58:20 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 15:58:21 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 15:58:26 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 15:59:29 ERROR SetUp - NTBLeadJourney Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class='icon icon-obj6']                                                //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57685/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5a1c3a1fb9557f5d26b4c47050865e2
+2022-08-16 15:59:29 INFO  ScreenShot - ScreenShot captured NTBLeadJourney || Status :Fail
+2022-08-16 15:59:30 INFO  CommonMethods - Row num for TestScenario = NTBLeadJourney is = 1
+2022-08-16 15:59:32 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 15:59:33 INFO  SetUp - Browser Closed..
+2022-08-16 16:11:05 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-16 16:11:05 INFO  SetUp - Test Case_NTBLeadJourney_Successfully Started
+2022-08-16 16:11:10 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-16 16:11:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-16 16:11:14 INFO  SetUp - Chrome Browser Launched..
+2022-08-16 16:11:17 INFO  SetUp - URL : https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-08-16 16:11:17 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-08-16 16:11:19 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = das
+2022-08-16 16:11:20 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-08-16 16:11:21 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-16 16:11:32 INFO  ScreenShot - ScreenShot captured loginpage || Status :pass
+2022-08-16 16:12:34 ERROR SetUp - NTBLeadJourney Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //a[@href="/sng7/app/CRMNextObject/Home/Lead"][1]                                          //click on lead (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58224}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58224/devtoo..., se:cdpVersion: 104.0.5112.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ea344b06b0baa57c0475f0f6cb95f3f6
+2022-08-16 16:12:35 INFO  ScreenShot - ScreenShot captured NTBLeadJourney || Status :Fail
+2022-08-16 16:12:36 INFO  CommonMethods - Row num for TestScenario = NTBLeadJourney is = 1
+2022-08-16 16:12:38 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-08-16 16:12:40 INFO  SetUp - Browser Closed..

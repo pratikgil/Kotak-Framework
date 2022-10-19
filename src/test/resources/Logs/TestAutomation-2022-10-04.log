@@ -1,0 +1,96 @@
+2022-10-04 15:13:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-04 15:13:56 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-04 15:14:10 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-04 15:14:10 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-10-04 15:14:10 INFO  Downloader - Downloading https://chromedriver.storage.googleapis.com/106.0.5249.61/chromedriver_win32.zip
+2022-10-04 15:14:11 INFO  Downloader - Extracting driver from compressed file chromedriver_win32.zip
+2022-10-04 15:14:12 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-04 15:14:16 INFO  SetUp - Chrome Browser Launched..
+2022-10-04 15:14:18 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-10-04 15:14:18 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-04 15:14:18 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-04 15:14:19 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-10-04 15:14:19 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-04 15:14:19 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-04 15:14:23 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-04 15:14:34 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-10-04 15:14:34 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5216
+2022-10-04 15:14:43 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-10-04 15:14:43 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102681952
+2022-10-04 15:14:58 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-10-04 15:14:59 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 911102503
+2022-10-04 15:15:14 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-10-04 15:15:14 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005268
+2022-10-04 15:16:21 ERROR SetUp - Kotak_OD_PL_PA Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[@data-autoid="cust_1881_ctrl"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54957/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 141d387ad9ab11df86390ad9133fe75d
+2022-10-04 15:16:22 INFO  ScreenShot - ScreenShot captured Kotak_OD_PL_PA || Status :Fail
+2022-10-04 15:16:25 INFO  CommonMethods - Row num for TestScenario = Kotak_OD_PL_PA is = 19
+2022-10-04 15:16:26 INFO  ExcelOperation - Write to excel with : Row=19 | Cell =3 | Data =Fail
+2022-10-04 15:16:29 INFO  SetUp - Browser Closed..
+2022-10-04 15:46:04 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-04 15:46:04 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-04 15:46:10 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-04 15:46:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-04 15:46:14 INFO  SetUp - Chrome Browser Launched..
+2022-10-04 15:46:17 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-10-04 15:46:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-04 15:46:17 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-04 15:46:18 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-10-04 15:46:18 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-04 15:46:18 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-04 15:46:23 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-04 15:46:33 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-10-04 15:46:34 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5216
+2022-10-04 15:46:42 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-10-04 15:46:43 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-10-04 15:46:55 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-10-04 15:46:55 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005268
+2022-10-04 15:47:03 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-10-04 15:47:03 ERROR SetUp - Kotak_OD_PL_PA Get Failed due to 
+C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\TestData\AutomationTestData.xlsx (The process cannot access the file because it is being used by another process)
+2022-10-04 15:47:03 INFO  ScreenShot - ScreenShot captured Kotak_OD_PL_PA || Status :Fail
+2022-10-04 15:47:05 INFO  CommonMethods - Row num for TestScenario = Kotak_OD_PL_PA is = 19
+2022-10-04 15:47:07 INFO  ExcelOperation - Write to excel with : Row=19 | Cell =3 | Data =Fail
+2022-10-04 15:47:08 INFO  SetUp - Browser Closed..
+2022-10-04 15:48:31 INFO  Utils - [TestNG] Running:
+  C:\Users\Pratik Gil\eclipse-workspace\MasterFramework-master\MasterFramework\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-04 15:48:31 INFO  SetUp - Test Case_Kotak_OD_PL_PA_Successfully Started
+2022-10-04 15:48:37 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-04 15:48:37 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pratik Gil\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-04 15:48:41 INFO  SetUp - Chrome Browser Launched..
+2022-10-04 15:48:44 INFO  SetUp - URL :  https://kmb.crmnext.com/sng7/app/login/login?logout=1
+2022-10-04 15:48:45 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-04 15:48:45 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-04 15:48:45 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = admin
+2022-10-04 15:48:45 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-04 15:48:46 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-04 15:49:01 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-04 15:49:13 INFO  CommonMethods - Sucessfully clicked on OfferIdInputODC_XPATH
+2022-10-04 15:49:13 INFO  CommonMethods - Data sucessfully entered on OfferIdInputODC_XPATH = 5216
+2022-10-04 15:49:24 INFO  CommonMethods - Sucessfully clicked on CRN_text_Box_XPATH
+2022-10-04 15:49:25 INFO  CommonMethods - Data sucessfully entered on CRN_text_Box_XPATH = 102678914
+2022-10-04 15:49:37 INFO  CommonMethods - Sucessfully clicked on Offer_Id_text_Box_XPATH
+2022-10-04 15:49:37 INFO  CommonMethods - Data sucessfully entered on Offer_Id_text_Box_XPATH = 00005268
+2022-10-04 15:49:47 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =9 | Data =102678914
+2022-10-04 15:49:54 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =00005216
+2022-10-04 15:51:27 ERROR SetUp - Kotak_OD_PL_PA Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'PRATIKGIL', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\PRATIK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55618/devtoo..., se:cdpVersion: 106.0.5249.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4331775a248579972b9020520a307424
+2022-10-04 15:51:27 INFO  ScreenShot - ScreenShot captured Kotak_OD_PL_PA || Status :Fail
+2022-10-04 15:51:35 INFO  CommonMethods - Row num for TestScenario = Kotak_OD_PL_PA is = 19
+2022-10-04 15:51:36 INFO  ExcelOperation - Write to excel with : Row=19 | Cell =3 | Data =Fail
+2022-10-04 15:51:38 INFO  SetUp - Browser Closed..
